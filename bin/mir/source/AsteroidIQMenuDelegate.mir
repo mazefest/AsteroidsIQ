@@ -1,0 +1,50 @@
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc"; @line = 2; ]
+import Toybox.System;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc"; @line = 5; ]
+class AsteroidIQMenuDelegate extends WatchUi.MenuInputDelegate{
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc"; @line = 7; ]
+    function initialize() as Void {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" 8 ]
+        %tmp.2 = getv ? :MenuInputDelegate;
+        %tmp.3 = getv const %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc"; @line = 11; ]
+    function onMenuItem(item as Symbol) as Void {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" 12 ]
+        %tmp.2 = lgetv %item;
+        %tmp.3 = :item_1;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @_Users_mazefest_Developer_AsteroidIQ_source_AsteroidIQMenuDelegate_mc_12_8_else;
+_Users_mazefest_Developer_AsteroidIQ_source_AsteroidIQMenuDelegate_mc_12_8_if:
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" 13 ]
+        %tmp.5 = getm $.Toybox.System;
+        %tmp.6 = getv const %tmp.5 :println;
+        %tmp.7 = "item 1";
+        invoke %tmp.5 %tmp.6(%tmp.7);
+        goto @_Users_mazefest_Developer_AsteroidIQ_source_AsteroidIQMenuDelegate_mc_12_8_end;
+_Users_mazefest_Developer_AsteroidIQ_source_AsteroidIQMenuDelegate_mc_12_8_else:
+        %tmp.9 = lgetv %item;
+        %tmp.10 = :item_2;
+        %tmp.11 = eq %tmp.9 %tmp.10;
+        bf %tmp.11 @_Users_mazefest_Developer_AsteroidIQ_source_AsteroidIQMenuDelegate_mc_14_15_end;
+_Users_mazefest_Developer_AsteroidIQ_source_AsteroidIQMenuDelegate_mc_14_15_if:
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" 15 ]
+        %tmp.12 = getm $.Toybox.System;
+        %tmp.13 = getv const %tmp.12 :println;
+        %tmp.14 = "item 2";
+        invoke %tmp.12 %tmp.13(%tmp.14);
+        goto @_Users_mazefest_Developer_AsteroidIQ_source_AsteroidIQMenuDelegate_mc_14_15_end;
+_Users_mazefest_Developer_AsteroidIQ_source_AsteroidIQMenuDelegate_mc_14_15_end:
+_Users_mazefest_Developer_AsteroidIQ_source_AsteroidIQMenuDelegate_mc_12_8_end:
+    }
+}
+<init> {
+}

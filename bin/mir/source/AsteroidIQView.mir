@@ -1,0 +1,45 @@
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc"; @line = 4; ]
+class AsteroidIQView extends WatchUi.View{
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc"; @line = 6; ]
+    function initialize() as Void {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" 7 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv const %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc"; @line = 11; ]
+    function onLayout(dc as Dc) as Void {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" 12 ]
+        %tmp.1 = self;
+        %tmp.2 = getv const %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv const %tmp.5 :MainLayout;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc"; @line = 18; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc"; @line = 22; ]
+    function onUpdate(dc as Dc) as Void {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" 24 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv const %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc"; @line = 30; ]
+    function onHide() as Void {
+    }
+}
+<init> {
+}

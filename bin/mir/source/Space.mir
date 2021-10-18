@@ -1,0 +1,457 @@
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 1; ]
+using Toybox.WatchUi;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 2; ]
+using Toybox.Timer;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 3; ]
+using Toybox.Graphics;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 4; ]
+using Toybox.Lang;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 5; ]
+using Toybox.Math;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 7; ]
+function startGame() {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 8 ]
+    %view.1 = local;
+    %tmp.4 = getv ? :Space;
+    %tmp.1 = newc %tmp.4;
+    %tmp.5 = dup %tmp.1;
+    %tmp.6 = getv const %tmp.5 :initialize;
+    %tmp.7 = dup %tmp.1;
+    invoke %tmp.7 %tmp.6();
+    lputv %view.1 %tmp.1;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 9 ]
+    %delegate.2 = local;
+    %tmp.11 = getv ? :SpaceDelegate;
+    %tmp.8 = newc %tmp.11;
+    %tmp.12 = dup %tmp.8;
+    %tmp.13 = getv const %tmp.12 :initialize;
+    %tmp.14 = dup %tmp.8;
+    %tmp.16 = lgetv %view.1;
+    invoke %tmp.14 %tmp.13(%tmp.16);
+    lputv %delegate.2 %tmp.8;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 10 ]
+    %transition.3 = local;
+    %tmp.17 = getm $.Toybox.WatchUi;
+    %tmp.18 = getv %tmp.17 :SLIDE_IMMEDIATE;
+    lputv %transition.3 %tmp.18;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 11 ]
+    %tmp.19 = getm $.Toybox.WatchUi;
+    %tmp.20 = getv const %tmp.19 :pushView;
+    %tmp.22 = lgetv %view.1;
+    %tmp.24 = lgetv %delegate.2;
+    %tmp.26 = lgetv %transition.3;
+    invoke %tmp.19 %tmp.20(%tmp.22, %tmp.24, %tmp.26);
+}
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 14; ]
+class Space extends WatchUi.View{
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 14; ]
+    <init> {
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 15; ]
+    var timer;
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 16; ]
+    var ship;
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 17; ]
+    function initialize() as Void {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 18 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv const %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 19 ]
+        %tmp.6 = getm $.Toybox.Timer;
+        %tmp.7 = getv %tmp.6 :Timer;
+        %tmp.4 = newc %tmp.7;
+        %tmp.8 = dup %tmp.4;
+        %tmp.9 = getv const %tmp.8 :initialize;
+        %tmp.10 = dup %tmp.4;
+        invoke %tmp.10 %tmp.9();
+        putv self :timer %tmp.4;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 20 ]
+        %tmp.12 = getv ? :timer;
+        %tmp.13 = getv const %tmp.12 :start;
+        %tmp.16 = getm $.Toybox.Lang;
+        %tmp.17 = getv %tmp.16 :Method;
+        %tmp.14 = newc %tmp.17;
+        %tmp.18 = dup %tmp.14;
+        %tmp.19 = getv const %tmp.18 :initialize;
+        %tmp.20 = dup %tmp.14;
+        %tmp.22 = lgetv %self;
+        %tmp.23 = :driver;
+        invoke %tmp.20 %tmp.19(%tmp.22, %tmp.23);
+        %tmp.24 = 100;
+        %tmp.25 = true;
+        invoke %tmp.12 %tmp.13(%tmp.14, %tmp.24, %tmp.25);
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 21 ]
+        %tmp.29 = getv ? :Ship;
+        %tmp.26 = newc %tmp.29;
+        %tmp.30 = dup %tmp.26;
+        %tmp.31 = getv const %tmp.30 :initialize;
+        %tmp.32 = dup %tmp.26;
+        invoke %tmp.32 %tmp.31();
+        putv self :ship %tmp.26;
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 25; ]
+    function onUpdate(dc) {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 26 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv const %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 27 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv const %tmp.7 :setColor;
+        %tmp.9 = getm $.Toybox.Graphics;
+        %tmp.10 = getv %tmp.9 :COLOR_BLUE;
+        %tmp.11 = getm $.Toybox.Graphics;
+        %tmp.12 = getv %tmp.11 :COLOR_WHITE;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12);
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 28 ]
+        %tmp.14 = lgetv %dc;
+        %tmp.15 = getv const %tmp.14 :clear;
+        invoke %tmp.14 %tmp.15();
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 29 ]
+        %tmp.17 = lgetv %dc;
+        %tmp.18 = getv const %tmp.17 :setColor;
+        %tmp.19 = getm $.Toybox.Graphics;
+        %tmp.20 = getv %tmp.19 :COLOR_BLUE;
+        %tmp.21 = getm $.Toybox.Graphics;
+        %tmp.22 = getv %tmp.21 :COLOR_WHITE;
+        invoke %tmp.17 %tmp.18(%tmp.20, %tmp.22);
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 30 ]
+        %tmp.24 = getv ? :ship;
+        %tmp.25 = getv const %tmp.24 :draw;
+        %tmp.27 = lgetv %dc;
+        invoke %tmp.24 %tmp.25(%tmp.27);
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 31 ]
+        %tmp.29 = getv ? :System;
+        %tmp.30 = getv const %tmp.29 :println;
+        %tmp.31 = "here";
+        invoke %tmp.29 %tmp.30(%tmp.31);
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 34; ]
+    function driver() {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 35 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv const %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 38; ]
+    function drawShip() {
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 42; ]
+    function clearScreen(dc) {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 43 ]
+        %tmp.2 = lgetv %dc;
+        %tmp.3 = getv const %tmp.2 :clear;
+        invoke %tmp.2 %tmp.3();
+    }
+}
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 48; ]
+class SpaceDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 48; ]
+    <init> {
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 49; ]
+    var view;
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 50; ]
+    function initialize(view) as Void {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 51 ]
+        %tmp.1 = lgetv %self;
+        %tmp.3 = lgetv %view;
+        putv %tmp.1 :view %tmp.3;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 52 ]
+        %tmp.5 = getv ? :BehaviorDelegate;
+        %tmp.6 = getv const %tmp.5 :initialize;
+        invoke %tmp.5 %tmp.6();
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 55; ]
+    function onSelect() {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 57 ]
+        %tmp.2 = getv ? :view;
+        %tmp.3 = getv %tmp.2 :ship;
+        %tmp.4 = getv const %tmp.3 :gas;
+        invoke %tmp.3 %tmp.4();
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 60; ]
+    function onNext() {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 61 ]
+        %tmp.2 = getv ? :view;
+        %tmp.3 = getv %tmp.2 :ship;
+        %tmp.4 = getv const %tmp.3 :rotateClockWise;
+        invoke %tmp.3 %tmp.4();
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 64; ]
+    function onPrevious() {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 65 ]
+        %tmp.2 = getv ? :view;
+        %tmp.3 = getv %tmp.2 :ship;
+        %tmp.4 = getv const %tmp.3 :rotateClockWise;
+        invoke %tmp.3 %tmp.4();
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 68; ]
+    function onBack() {
+    }
+}
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 73; ]
+class Gravity{
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 73; ]
+    <init> {
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 74; ]
+    var x;
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 75; ]
+    var y;
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 77; ]
+    function initialize() as Void {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 78 ]
+        %tmp.1 = 0;
+        putv self :x %tmp.1;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 79 ]
+        %tmp.2 = 0;
+        putv self :y %tmp.2;
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 82; ]
+    function setY(value) {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 82 ]
+        %tmp.2 = lgetv %value;
+        putv self :y %tmp.2;
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 83; ]
+    function setX(value) {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 83 ]
+        %tmp.2 = lgetv %value;
+        putv self :x %tmp.2;
+    }
+}
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 85; ]
+class Ship{
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 85; ]
+    <init> {
+        [ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 90 ]
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        putv self :color %tmp.4;
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 86; ]
+    var x;
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 87; ]
+    var y;
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 88; ]
+    var direction;
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 89; ]
+    var width = 4;
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 90; ]
+    var color;
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 91; ]
+    var rotation = 0;
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 93; ]
+    var gravity;
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 95; ]
+    function initialize() as Void {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 96 ]
+        %tmp.1 = 120;
+        putv self :x %tmp.1;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 97 ]
+        %tmp.2 = 120;
+        putv self :y %tmp.2;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 98 ]
+        %tmp.6 = getv ? :Gravity;
+        %tmp.3 = newc %tmp.6;
+        %tmp.7 = dup %tmp.3;
+        %tmp.8 = getv const %tmp.7 :initialize;
+        %tmp.9 = dup %tmp.3;
+        invoke %tmp.9 %tmp.8();
+        putv self :gravity %tmp.3;
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 101; ]
+    function draw(dc) {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 102 ]
+        %tmp.1 = self;
+        %tmp.2 = getv const %tmp.1 :applyGravity;
+        invoke %tmp.1 %tmp.2();
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 103 ]
+        %pointLeft.1 = local;
+        %tmp.3 = newa 2;
+        %tmp.5 = getv ? :x;
+        %tmp.6 = 5;
+        %tmp.7 = sub %tmp.5 %tmp.6;
+        %tmp.8 = dup %tmp.3;
+        %tmp.9 = aputv %tmp.8 0 %tmp.7;
+        %tmp.11 = getv ? :y;
+        %tmp.12 = dup %tmp.9;
+        %tmp.13 = aputv %tmp.12 1 %tmp.11;
+        lputv %pointLeft.1 %tmp.13;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 104 ]
+        %pointRight.2 = local;
+        %tmp.14 = newa 2;
+        %tmp.16 = getv ? :x;
+        %tmp.17 = 5;
+        %tmp.18 = add %tmp.16 %tmp.17;
+        %tmp.19 = dup %tmp.14;
+        %tmp.20 = aputv %tmp.19 0 %tmp.18;
+        %tmp.22 = getv ? :y;
+        %tmp.23 = dup %tmp.20;
+        %tmp.24 = aputv %tmp.23 1 %tmp.22;
+        lputv %pointRight.2 %tmp.24;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 105 ]
+        %pointFace.3 = local;
+        %tmp.25 = newa 2;
+        %tmp.27 = getv ? :x;
+        %tmp.28 = dup %tmp.25;
+        %tmp.29 = aputv %tmp.28 0 %tmp.27;
+        %tmp.31 = getv ? :y;
+        %tmp.32 = 5;
+        %tmp.33 = sub %tmp.31 %tmp.32;
+        %tmp.34 = dup %tmp.29;
+        %tmp.35 = aputv %tmp.34 1 %tmp.33;
+        lputv %pointFace.3 %tmp.35;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 106 ]
+        %pts.4 = local;
+        %tmp.36 = self;
+        %tmp.37 = getv const %tmp.36 :rotate;
+        %tmp.38 = newa 3;
+        %tmp.40 = lgetv %pointLeft.1;
+        %tmp.41 = dup %tmp.38;
+        %tmp.42 = aputv %tmp.41 0 %tmp.40;
+        %tmp.44 = lgetv %pointRight.2;
+        %tmp.45 = dup %tmp.42;
+        %tmp.46 = aputv %tmp.45 1 %tmp.44;
+        %tmp.48 = lgetv %pointFace.3;
+        %tmp.49 = dup %tmp.46;
+        %tmp.50 = aputv %tmp.49 2 %tmp.48;
+        %tmp.52 = getv ? :degrees;
+        %tmp.53 = invoke %tmp.36 %tmp.37(%tmp.50, %tmp.52);
+        lputv %pts.4 %tmp.53;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 107 ]
+        %tmp.55 = lgetv %dc;
+        %tmp.56 = getv const %tmp.55 :setPenWidth;
+        %tmp.58 = getv ? :width;
+        invoke %tmp.55 %tmp.56(%tmp.58);
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 108 ]
+        %tmp.60 = lgetv %dc;
+        %tmp.61 = getv const %tmp.60 :fillPolygon;
+        %tmp.63 = lgetv %pts.4;
+        invoke %tmp.60 %tmp.61(%tmp.63);
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 111; ]
+    function rotate(degrees) {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 112 ]
+        %tmp.1 = 0;
+        putv self :rotation %tmp.1;
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 115; ]
+    function rotatePoint(points, degrees) {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 116 ]
+        %pts.1 = local;
+        %tmp.1 = newa 0;
+        lputv %pts.1 %tmp.1;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 117 ]
+        %radians.2 = local;
+        %tmp.3 = lgetv %degrees;
+        %tmp.4 = getm $.Toybox.Math;
+        %tmp.5 = getv %tmp.4 :pi;
+        %tmp.6 = mul %tmp.3 %tmp.5;
+        %tmp.7 = 180;
+        %tmp.8 = div %tmp.6 %tmp.7;
+        lputv %radians.2 %tmp.8;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 118 ]
+        %i.3 = local;
+        %tmp.9 = 0;
+        lputv %i.3 %tmp.9;
+_Users_mazefest_Developer_AsteroidIQ_source_Space_mc_118_2_for_test:
+        %tmp.11 = lgetv %i.3;
+        %tmp.13 = lgetv %points;
+        %tmp.14 = lt %tmp.11 %tmp.13;
+        bf %tmp.14 @_Users_mazefest_Developer_AsteroidIQ_source_Space_mc_118_2_for_end;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 119 ]
+        %point.4 = local;
+        %tmp.15 = newa 1;
+        %tmp.17 = lgetv %i.3;
+        %tmp.18 = dup %tmp.15;
+        %tmp.19 = aputv %tmp.18 0 %tmp.17;
+        lputv %point.4 %tmp.19;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 120 ]
+        %newY.5 = local;
+        %tmp.21 = lgetv %point.4;
+        %tmp.22 = 1;
+        %tmp.23 = agetv %tmp.21 %tmp.22;
+        %tmp.24 = getm $.Toybox.Math;
+        %tmp.25 = getv const %tmp.24 :cos;
+        %tmp.27 = lgetv %radians.2;
+        %tmp.28 = invoke %tmp.24 %tmp.25(%tmp.27);
+        %tmp.29 = mul %tmp.23 %tmp.28;
+        %tmp.31 = lgetv %point.4;
+        %tmp.32 = 0;
+        %tmp.33 = agetv %tmp.31 %tmp.32;
+        %tmp.34 = getm $.Toybox.Math;
+        %tmp.35 = getv const %tmp.34 :sin;
+        %tmp.37 = lgetv %radians.2;
+        %tmp.38 = invoke %tmp.34 %tmp.35(%tmp.37);
+        %tmp.39 = mul %tmp.33 %tmp.38;
+        %tmp.40 = sub %tmp.29 %tmp.39;
+        lputv %newY.5 %tmp.40;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 121 ]
+        %newX.6 = local;
+        %tmp.42 = lgetv %point.4;
+        %tmp.43 = 1;
+        %tmp.44 = agetv %tmp.42 %tmp.43;
+        %tmp.45 = getm $.Toybox.Math;
+        %tmp.46 = getv const %tmp.45 :sin;
+        %tmp.48 = lgetv %radians.2;
+        %tmp.49 = invoke %tmp.45 %tmp.46(%tmp.48);
+        %tmp.50 = mul %tmp.44 %tmp.49;
+        %tmp.52 = lgetv %point.4;
+        %tmp.53 = 0;
+        %tmp.54 = agetv %tmp.52 %tmp.53;
+        %tmp.55 = getm $.Toybox.Math;
+        %tmp.56 = getv const %tmp.55 :cos;
+        %tmp.58 = lgetv %radians.2;
+        %tmp.59 = invoke %tmp.55 %tmp.56(%tmp.58);
+        %tmp.60 = mul %tmp.54 %tmp.59;
+        %tmp.61 = add %tmp.50 %tmp.60;
+        lputv %newX.6 %tmp.61;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 122 ]
+        %tmp.63 = lgetv %pts.1;
+        %tmp.64 = getv const %tmp.63 :add;
+        %tmp.66 = lgetv %newX.6;
+        %tmp.68 = lgetv %newY.5;
+        invoke %tmp.63 %tmp.64(%tmp.66, %tmp.68);
+_Users_mazefest_Developer_AsteroidIQ_source_Space_mc_118_2_incr:
+        %tmp.71 = lgetv %i.3;
+        %tmp.72 = add %tmp.71 1;
+        lputv %i.3 %tmp.72;
+        goto @_Users_mazefest_Developer_AsteroidIQ_source_Space_mc_118_2_for_test;
+_Users_mazefest_Developer_AsteroidIQ_source_Space_mc_118_2_for_end:
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 124 ]
+        %tmp.74 = lgetv %pts.1;
+        ret %tmp.74;
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 127; ]
+    function rotateClockWise() {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 128 ]
+        %tmp.1 = getv self :rotation;
+        %tmp.2 = 10;
+        %tmp.3 = add %tmp.1 %tmp.2;
+        putv self :rotation %tmp.3;
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 131; ]
+    function gas() {
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc"; @line = 136; ]
+    function applyGravity() {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 137 ]
+        %tmp.1 = getv self :x;
+        %tmp.3 = getv ? :gravity;
+        %tmp.4 = getv %tmp.3 :x;
+        %tmp.5 = add %tmp.1 %tmp.4;
+        putv self :x %tmp.5;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" 138 ]
+        %tmp.6 = getv self :y;
+        %tmp.8 = getv ? :gravity;
+        %tmp.9 = getv %tmp.8 :y;
+        %tmp.10 = add %tmp.6 %tmp.9;
+        putv self :y %tmp.10;
+    }
+}
+<init> {
+}

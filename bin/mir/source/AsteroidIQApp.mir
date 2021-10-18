@@ -1,0 +1,67 @@
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc"; @line = 5; ]
+class AsteroidIQApp extends Application.AppBase{
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc"; @line = 7; ]
+    function initialize() as Void {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv const %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc"; @line = 12; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc"; @line = 16; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc"; @line = 20; ]
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" 21 ]
+        %view.1 = local;
+        %tmp.4 = getv ? :Space;
+        %tmp.1 = newc %tmp.4;
+        %tmp.5 = dup %tmp.1;
+        %tmp.6 = getv const %tmp.5 :initialize;
+        %tmp.7 = dup %tmp.1;
+        invoke %tmp.7 %tmp.6();
+        lputv %view.1 %tmp.1;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" 22 ]
+        %delegate.2 = local;
+        %tmp.11 = getv ? :SpaceDelegate;
+        %tmp.8 = newc %tmp.11;
+        %tmp.12 = dup %tmp.8;
+        %tmp.13 = getv const %tmp.12 :initialize;
+        %tmp.14 = dup %tmp.8;
+        %tmp.16 = lgetv %view.1;
+        invoke %tmp.14 %tmp.13(%tmp.16);
+        lputv %delegate.2 %tmp.8;
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" 23 ]
+        %tmp.17 = newa 2;
+        %tmp.19 = lgetv %view.1;
+        %tmp.20 = dup %tmp.17;
+        %tmp.21 = aputv %tmp.20 0 %tmp.19;
+        %tmp.23 = lgetv %delegate.2;
+        %tmp.24 = dup %tmp.21;
+        %tmp.25 = aputv %tmp.24 1 %tmp.23;
+        ret %tmp.25;
+    }
+}
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc"; @line = 29; ]
+function getApp() as AsteroidIQApp {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" 30 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv const %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 AsteroidIQApp;
+    ret %tmp.4;
+}
+<init> {
+}

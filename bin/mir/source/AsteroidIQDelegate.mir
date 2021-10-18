@@ -1,0 +1,45 @@
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc"; @line = 4; ]
+class AsteroidIQDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc"; @line = 6; ]
+    function initialize() as Void {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" 7 ]
+        %tmp.2 = getv ? :BehaviorDelegate;
+        %tmp.3 = getv const %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+    }
+    [ @file = "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc"; @line = 10; ]
+    function onMenu() as Boolean {
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" 11 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv const %tmp.1 :pushView;
+        %tmp.6 = getv ? :Rez;
+        %tmp.7 = getv %tmp.6 :Menus;
+        %tmp.8 = getv %tmp.7 :MainMenu;
+        %tmp.3 = newc %tmp.8;
+        %tmp.9 = dup %tmp.3;
+        %tmp.10 = getv const %tmp.9 :initialize;
+        %tmp.11 = dup %tmp.3;
+        invoke %tmp.11 %tmp.10();
+        %tmp.15 = getv ? :AsteroidIQMenuDelegate;
+        %tmp.12 = newc %tmp.15;
+        %tmp.16 = dup %tmp.12;
+        %tmp.17 = getv const %tmp.16 :initialize;
+        %tmp.18 = dup %tmp.12;
+        invoke %tmp.18 %tmp.17();
+        %tmp.19 = getm $.Toybox.WatchUi;
+        %tmp.20 = getv %tmp.19 :SLIDE_UP;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.12, %tmp.20);
+[ "/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" 12 ]
+        %tmp.21 = true;
+        ret %tmp.21;
+    }
+}
+<init> {
+}
