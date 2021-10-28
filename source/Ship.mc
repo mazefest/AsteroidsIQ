@@ -67,11 +67,9 @@ class Ship {
 	}
 
 	function gas() {
-		var next = getNextCoordinate();
-		x += next[0];
-		y += next[1];
-		//gravity.setX(next[0]);
-		//gravity.setY(next[y]);
+		gravity.speed = 2;
+		gravity.rotation = rotation;
+		
 	}
 
 	function getNextCoordinate() {
@@ -81,14 +79,16 @@ class Ship {
 	}
 
 	function applyGravity() {
-		var a = getNextCoordinate();
-		x += a[0];
-		y += a[1];
+		gravity.getNextCoordinate();
+		//var a = getNextCoordinate();
+		x += gravity.x;
+		y += gravity.y;
 		//x += gravity.x;
 		//y += gravity.y;
 	}
 
 	function shiftSpeed() {
-		speedIndex = (speedIndex + 1) % 3;
+		gas();
+		//speedIndex = (speedIndex + 1) % 3;
 	}
 }
