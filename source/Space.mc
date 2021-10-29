@@ -41,6 +41,19 @@ class Space extends WatchUi.View {
 		WatchUi.requestUpdate();
 	}
 
+	function checkShipLocation() {
+		if (ship.x < -5) {
+			ship.x = width;
+		} else if (ship.x > width) {
+			ship.x = -5;
+		}
+		if (ship.y < -5) {
+			ship.y = height;
+		} else if (ship.y > height) {
+			ship.y = -5;
+		}
+	}
+
 	function drawShip() {
 
 	}
