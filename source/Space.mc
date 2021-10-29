@@ -30,6 +30,18 @@ class Space extends WatchUi.View {
 		dc.clear();
 		dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_WHITE);
 		ship.draw(dc);
+		checkShipLocation();
+		drawMissiles(dc);
+		drawAsteroids(dc);
+	}
+
+	function drawAsteroids(dc) {
+		for (var i = 0; i < asteroids.size(); i++) {
+			asteroids[i].draw(dc);
+		}
+	}
+
+	function drawMissiles(dc) {
 		for (var i = 0; i < missiles.size(); i++) {
 			missiles[i].draw(dc);
 		}
