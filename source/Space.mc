@@ -15,13 +15,23 @@ class Space extends WatchUi.View {
 	var timer;
 	var ship;
 	var missiles = [];
+	var asteroids = [];
 	var timeOutCount = 0;
+	var width;
+	var height;
 	function initialize() {
 		View.initialize();
 		timer = new Timer.Timer();
 		timer.start(new Lang.Method(self, :driver), 100, true);
 		ship = new Ship();	
 
+		var asteroid = new Asteroid();
+		asteroids.add(asteroid);
+	}
+
+	function onLayout(dc) {
+		width = dc.getWidth();
+		height = dc.getHeight();
 	}
 
 	function onUpdate(dc) {
