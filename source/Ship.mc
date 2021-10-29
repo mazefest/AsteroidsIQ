@@ -3,6 +3,7 @@ using Toybox.Timer;
 using Toybox.Graphics;
 using Toybox.Lang;
 using Toybox.Math;
+using Toybox.System;
 
 //@x: Int -> x coordinate of ship
 //@y: Int -> y coordinate of ship
