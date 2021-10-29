@@ -37,7 +37,7 @@ class Space extends WatchUi.View {
 
 	function driver() {
 		timeOutCount += 1;
-		if (timeOutCount >= 300) {System.exit();}
+		if (timeOutCount >= 600) {System.exit();}
 		WatchUi.requestUpdate();
 	}
 
