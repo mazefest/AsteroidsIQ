@@ -7,334 +7,431 @@
         <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="1" lineNum="9" parent="globals" pc="268435492" symbol="startGame"/>
         <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="1" lineNum="10" parent="globals" pc="268435518" symbol="startGame"/>
         <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="1" lineNum="11" parent="globals" pc="268435532" symbol="startGame"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="2" lineNum="19" parent="globals/Space" pc="268435555" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="2" lineNum="20" parent="globals/Space" pc="268435559" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="2" lineNum="21" parent="globals/Space" pc="268435577" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="2" lineNum="22" parent="globals/Space" pc="268435611" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="2" lineNum="23" parent="globals/Space" pc="268435669" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="3" lineNum="27" parent="globals/Space" pc="268435700" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="3" lineNum="28" parent="globals/Space" pc="268435704" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="3" lineNum="29" parent="globals/Space" pc="268435724" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="3" lineNum="30" parent="globals/Space" pc="268435760" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="3" lineNum="31" parent="globals/Space" pc="268435772" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="3" lineNum="32" parent="globals/Space" pc="268435808" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="3" lineNum="33" parent="globals/Space" pc="268435828" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="3" lineNum="34" parent="globals/Space" pc="268435858" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="38" parent="globals/Space" pc="268435895" symbol="driver"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="39" parent="globals/Space" pc="268435899" symbol="driver"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="40" parent="globals/Space" pc="268435918" symbol="driver"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="40" parent="globals/Space" pc="268435935" symbol="driver"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="41" parent="globals/Space" pc="268435956" symbol="driver"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="5" lineNum="44" parent="globals/Space" pc="268435973" symbol="drawShip"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="6" lineNum="48" parent="globals/Space" pc="268435978" symbol="clearScreen"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="6" lineNum="49" parent="globals/Space" pc="268435982" symbol="clearScreen"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="7" lineNum="14" parent="globals/Space" pc="268439073" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="7" lineNum="17" parent="globals/Space" pc="268439091" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="7" lineNum="14" parent="globals/Space" pc="268439073" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="9" lineNum="7" parent="globals/AsteroidIQApp" pc="268435995" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="9" lineNum="8" parent="globals/AsteroidIQApp" pc="268435999" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="10" lineNum="12" parent="globals/AsteroidIQApp" pc="268436018" symbol="onStart"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="11" lineNum="16" parent="globals/AsteroidIQApp" pc="268436023" symbol="onStop"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="12" lineNum="20" parent="globals/AsteroidIQApp" pc="268436028" symbol="getInitialView"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="12" lineNum="21" parent="globals/AsteroidIQApp" pc="268436032" symbol="getInitialView"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="12" lineNum="22" parent="globals/AsteroidIQApp" pc="268436056" symbol="getInitialView"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="12" lineNum="23" parent="globals/AsteroidIQApp" pc="268436082" symbol="getInitialView"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="13" lineNum="5" parent="globals/AsteroidIQApp" pc="268438942" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="13" lineNum="5" parent="globals/AsteroidIQApp" pc="268438942" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="14" lineNum="29" parent="globals" pc="268436110" symbol="getApp"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="14" lineNum="30" parent="globals" pc="268436122" symbol="getApp"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="16" lineNum="6" parent="globals/AsteroidIQDelegate" pc="268436139" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="16" lineNum="7" parent="globals/AsteroidIQDelegate" pc="268436143" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="17" lineNum="10" parent="globals/AsteroidIQDelegate" pc="268436162" symbol="onMenu"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="17" lineNum="11" parent="globals/AsteroidIQDelegate" pc="268436166" symbol="onMenu"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="17" lineNum="12" parent="globals/AsteroidIQDelegate" pc="268436250" symbol="onMenu"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="18" lineNum="4" parent="globals/AsteroidIQDelegate" pc="268438854" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="18" lineNum="4" parent="globals/AsteroidIQDelegate" pc="268438854" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="20" lineNum="5" parent="globals/SpaceDelegate" pc="268436254" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="20" lineNum="6" parent="globals/SpaceDelegate" pc="268436258" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="20" lineNum="7" parent="globals/SpaceDelegate" pc="268436268" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="21" lineNum="10" parent="globals/SpaceDelegate" pc="268436287" symbol="onSelect"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="21" lineNum="11" parent="globals/SpaceDelegate" pc="268436291" symbol="onSelect"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="21" lineNum="12" parent="globals/SpaceDelegate" pc="268436313" symbol="onSelect"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="21" lineNum="13" parent="globals/SpaceDelegate" pc="268436335" symbol="onSelect"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="21" lineNum="14" parent="globals/SpaceDelegate" pc="268436357" symbol="onSelect"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="21" lineNum="15" parent="globals/SpaceDelegate" pc="268436387" symbol="onSelect"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="22" lineNum="19" parent="globals/SpaceDelegate" pc="268436414" symbol="onNextPage"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="22" lineNum="20" parent="globals/SpaceDelegate" pc="268436418" symbol="onNextPage"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="23" lineNum="23" parent="globals/SpaceDelegate" pc="268436443" symbol="onPreviousPage"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="23" lineNum="24" parent="globals/SpaceDelegate" pc="268436447" symbol="onPreviousPage"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="24" lineNum="27" parent="globals/SpaceDelegate" pc="268436472" symbol="onBack"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="24" lineNum="28" parent="globals/SpaceDelegate" pc="268436476" symbol="onBack"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="24" lineNum="29" parent="globals/SpaceDelegate" pc="268436500" symbol="onBack"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="25" lineNum="3" parent="globals/SpaceDelegate" pc="268438873" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="25" lineNum="3" parent="globals/SpaceDelegate" pc="268438873" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="27" lineNum="6" parent="globals/AsteroidIQView" pc="268436504" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="27" lineNum="7" parent="globals/AsteroidIQView" pc="268436508" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="28" lineNum="11" parent="globals/AsteroidIQView" pc="268436527" symbol="onLayout"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="28" lineNum="12" parent="globals/AsteroidIQView" pc="268436531" symbol="onLayout"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="29" lineNum="18" parent="globals/AsteroidIQView" pc="268436569" symbol="onShow"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="30" lineNum="22" parent="globals/AsteroidIQView" pc="268436574" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="30" lineNum="24" parent="globals/AsteroidIQView" pc="268436578" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="31" lineNum="30" parent="globals/AsteroidIQView" pc="268436599" symbol="onHide"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="32" lineNum="4" parent="globals/AsteroidIQView" pc="268439035" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="32" lineNum="4" parent="globals/AsteroidIQView" pc="268439035" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="34" lineNum="7" parent="globals/AsteroidIQMenuDelegate" pc="268436604" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="34" lineNum="8" parent="globals/AsteroidIQMenuDelegate" pc="268436608" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="35" lineNum="11" parent="globals/AsteroidIQMenuDelegate" pc="268436627" symbol="onMenuItem"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="35" lineNum="12" parent="globals/AsteroidIQMenuDelegate" pc="268436631" symbol="onMenuItem"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="35" lineNum="13" parent="globals/AsteroidIQMenuDelegate" pc="268436642" symbol="onMenuItem"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="35" lineNum="14" parent="globals/AsteroidIQMenuDelegate" pc="268436666" symbol="onMenuItem"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="35" lineNum="15" parent="globals/AsteroidIQMenuDelegate" pc="268436677" symbol="onMenuItem"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="36" lineNum="5" parent="globals/AsteroidIQMenuDelegate" pc="268439054" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="36" lineNum="5" parent="globals/AsteroidIQMenuDelegate" pc="268439054" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="38" lineNum="9" parent="globals/Gravity" pc="268436702" symbol="radians"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="38" lineNum="9" parent="globals/Gravity" pc="268436706" symbol="radians"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="39" lineNum="11" parent="globals/Gravity" pc="268436722" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="39" lineNum="12" parent="globals/Gravity" pc="268436726" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="39" lineNum="13" parent="globals/Gravity" pc="268436739" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="39" lineNum="14" parent="globals/Gravity" pc="268436752" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="39" lineNum="15" parent="globals/Gravity" pc="268436765" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="40" lineNum="18" parent="globals/Gravity" pc="268436779" symbol="getNextCoordinate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="40" lineNum="19" parent="globals/Gravity" pc="268436783" symbol="getNextCoordinate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="40" lineNum="20" parent="globals/Gravity" pc="268436836" symbol="getNextCoordinate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="41" lineNum="23" parent="globals/Gravity" pc="268436890" symbol="setY"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="41" lineNum="23" parent="globals/Gravity" pc="268436894" symbol="setY"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="42" lineNum="24" parent="globals/Gravity" pc="268436905" symbol="setX"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="42" lineNum="24" parent="globals/Gravity" pc="268436909" symbol="setX"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="43" lineNum="3" parent="globals/Gravity" pc="268438941" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="45" lineNum="11" parent="globals/Missile" pc="268436920" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="45" lineNum="12" parent="globals/Missile" pc="268436924" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="45" lineNum="13" parent="globals/Missile" pc="268436934" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="45" lineNum="14" parent="globals/Missile" pc="268436944" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="46" lineNum="17" parent="globals/Missile" pc="268436955" symbol="radians"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="46" lineNum="17" parent="globals/Missile" pc="268436959" symbol="radians"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="47" lineNum="19" parent="globals/Missile" pc="268436975" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="47" lineNum="20" parent="globals/Missile" pc="268436979" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="47" lineNum="21" parent="globals/Missile" pc="268436992" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="47" lineNum="22" parent="globals/Missile" pc="268437014" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="47" lineNum="23" parent="globals/Missile" pc="268437036" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="47" lineNum="24" parent="globals/Missile" pc="268437053" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="48" lineNum="27" parent="globals/Missile" pc="268437082" symbol="getNextCoordinate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="48" lineNum="28" parent="globals/Missile" pc="268437086" symbol="getNextCoordinate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="48" lineNum="29" parent="globals/Missile" pc="268437093" symbol="getNextCoordinate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="48" lineNum="30" parent="globals/Missile" pc="268437132" symbol="getNextCoordinate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="48" lineNum="31" parent="globals/Missile" pc="268437171" symbol="getNextCoordinate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="49" lineNum="6" parent="globals/Missile" pc="268439106" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="51" lineNum="26" parent="globals/Ship" pc="268437199" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="51" lineNum="27" parent="globals/Ship" pc="268437203" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="51" lineNum="28" parent="globals/Ship" pc="268437216" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="51" lineNum="29" parent="globals/Ship" pc="268437229" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="52" lineNum="32" parent="globals/Ship" pc="268437260" symbol="speed"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="52" lineNum="32" parent="globals/Ship" pc="268437264" symbol="speed"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="53" lineNum="33" parent="globals/Ship" pc="268437283" symbol="radians"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="53" lineNum="33" parent="globals/Ship" pc="268437287" symbol="radians"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="54" lineNum="35" parent="globals/Ship" pc="268437303" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="54" lineNum="36" parent="globals/Ship" pc="268437307" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="54" lineNum="37" parent="globals/Ship" pc="268437319" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="54" lineNum="38" parent="globals/Ship" pc="268437371" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="54" lineNum="39" parent="globals/Ship" pc="268437423" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="54" lineNum="40" parent="globals/Ship" pc="268437475" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="54" lineNum="41" parent="globals/Ship" pc="268437496" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="54" lineNum="42" parent="globals/Ship" pc="268437516" symbol="draw"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="55" lineNum="45" parent="globals/Ship" pc="268437531" symbol="applyRotation"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="55" lineNum="46" parent="globals/Ship" pc="268437535" symbol="applyRotation"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="55" lineNum="47" parent="globals/Ship" pc="268437543" symbol="applyRotation"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="55" lineNum="48" parent="globals/Ship" pc="268437671" symbol="applyRotation"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="55" lineNum="49" parent="globals/Ship" pc="268437695" symbol="applyRotation"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="55" lineNum="50" parent="globals/Ship" pc="268437702" symbol="applyRotation"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="55" lineNum="51" parent="globals/Ship" pc="268437791" symbol="applyRotation"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="55" lineNum="52" parent="globals/Ship" pc="268437880" symbol="applyRotation"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="55" lineNum="53" parent="globals/Ship" pc="268437893" symbol="applyRotation"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="55" lineNum="54" parent="globals/Ship" pc="268437906" symbol="applyRotation"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="55" lineNum="57" parent="globals/Ship" pc="268437957" symbol="applyRotation"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="56" lineNum="60" parent="globals/Ship" pc="268437961" symbol="rotateCounterClockWise"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="56" lineNum="61" parent="globals/Ship" pc="268437965" symbol="rotateCounterClockWise"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="56" lineNum="62" parent="globals/Ship" pc="268438018" symbol="rotateCounterClockWise"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="57" lineNum="64" parent="globals/Ship" pc="268438045" symbol="rotateClockWise"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="57" lineNum="65" parent="globals/Ship" pc="268438049" symbol="rotateClockWise"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="57" lineNum="66" parent="globals/Ship" pc="268438077" symbol="rotateClockWise"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="58" lineNum="69" parent="globals/Ship" pc="268438104" symbol="gas"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="58" lineNum="70" parent="globals/Ship" pc="268438108" symbol="gas"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="58" lineNum="71" parent="globals/Ship" pc="268438127" symbol="gas"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="59" lineNum="75" parent="globals/Ship" pc="268438150" symbol="getNextCoordinate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="59" lineNum="76" parent="globals/Ship" pc="268438154" symbol="getNextCoordinate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="59" lineNum="77" parent="globals/Ship" pc="268438202" symbol="getNextCoordinate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="59" lineNum="78" parent="globals/Ship" pc="268438250" symbol="getNextCoordinate"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="60" lineNum="81" parent="globals/Ship" pc="268438278" symbol="applyGravity"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="60" lineNum="82" parent="globals/Ship" pc="268438282" symbol="applyGravity"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="60" lineNum="84" parent="globals/Ship" pc="268438300" symbol="applyGravity"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="60" lineNum="85" parent="globals/Ship" pc="268438328" symbol="applyGravity"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="61" lineNum="90" parent="globals/Ship" pc="268438357" symbol="shiftSpeed"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="61" lineNum="91" parent="globals/Ship" pc="268438361" symbol="shiftSpeed"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="62" lineNum="20" parent="globals/Ship" pc="268438961" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="62" lineNum="22" parent="globals/Ship" pc="268438981" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="62" lineNum="16" parent="globals/Ship" pc="268438961" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="64" lineNum="2" parent="globals/Rez/Drawables" pc="268438916" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="65" lineNum="7" parent="globals/Rez/Fonts" pc="268438937" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="66" lineNum="9" parent="globals/Rez/JsonData" pc="268438939" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="67" lineNum="18" parent="globals/Rez/Layouts" pc="268438374" symbol="MainLayout"/>
-        <entry filename="Rez" id="67" lineNum="20" parent="globals/Rez/Layouts" pc="268438386" symbol="MainLayout"/>
-        <entry filename="Rez" id="67" lineNum="21" parent="globals/Rez/Layouts" pc="268438538" symbol="MainLayout"/>
-        <entry filename="Rez" id="67" lineNum="22" parent="globals/Rez/Layouts" pc="268438650" symbol="MainLayout"/>
-        <entry filename="Rez" id="67" lineNum="24" parent="globals/Rez/Layouts" pc="268438690" symbol="MainLayout"/>
-        <entry filename="Rez" id="68" lineNum="11" parent="globals/Rez/Layouts" pc="268438938" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="69" lineNum="38" parent="globals/Rez/Menus/MainMenu" pc="268438718" symbol="initialize"/>
-        <entry filename="Rez" id="69" lineNum="39" parent="globals/Rez/Menus/MainMenu" pc="268438722" symbol="initialize"/>
-        <entry filename="Rez" id="69" lineNum="40" parent="globals/Rez/Menus/MainMenu" pc="268438740" symbol="initialize"/>
-        <entry filename="Rez" id="69" lineNum="41" parent="globals/Rez/Menus/MainMenu" pc="268438796" symbol="initialize"/>
-        <entry filename="Rez" id="70" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268438918" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="70" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268438918" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="71" lineNum="29" parent="globals/Rez/Menus" pc="268438917" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="72" lineNum="47" parent="globals/Rez/Strings" pc="268438940" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="73" lineNum="1" parent="globals/Rez" pc="268438892" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="73" lineNum="1" parent="globals/Rez" pc="268438892" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="2" lineNum="22" parent="globals/Space" pc="268435555" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="2" lineNum="23" parent="globals/Space" pc="268435559" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="2" lineNum="24" parent="globals/Space" pc="268435577" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="2" lineNum="25" parent="globals/Space" pc="268435611" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="2" lineNum="26" parent="globals/Space" pc="268435669" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="2" lineNum="28" parent="globals/Space" pc="268435699" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="2" lineNum="29" parent="globals/Space" pc="268435723" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="3" lineNum="32" parent="globals/Space" pc="268435744" symbol="onLayout"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="3" lineNum="33" parent="globals/Space" pc="268435748" symbol="onLayout"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="3" lineNum="34" parent="globals/Space" pc="268435767" symbol="onLayout"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="37" parent="globals/Space" pc="268435787" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="38" parent="globals/Space" pc="268435791" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="39" parent="globals/Space" pc="268435811" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="40" parent="globals/Space" pc="268435847" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="41" parent="globals/Space" pc="268435859" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="42" parent="globals/Space" pc="268435895" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="43" parent="globals/Space" pc="268435915" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="44" parent="globals/Space" pc="268435927" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="4" lineNum="45" parent="globals/Space" pc="268435941" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="5" lineNum="48" parent="globals/Space" pc="268435956" symbol="drawAsteroids"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="5" lineNum="49" parent="globals/Space" pc="268435960" symbol="drawAsteroids"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="5" lineNum="50" parent="globals/Space" pc="268435990" symbol="drawAsteroids"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="6" lineNum="54" parent="globals/Space" pc="268436027" symbol="drawMissiles"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="6" lineNum="55" parent="globals/Space" pc="268436031" symbol="drawMissiles"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="6" lineNum="56" parent="globals/Space" pc="268436061" symbol="drawMissiles"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="7" lineNum="60" parent="globals/Space" pc="268436098" symbol="driver"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="7" lineNum="61" parent="globals/Space" pc="268436102" symbol="driver"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="7" lineNum="62" parent="globals/Space" pc="268436121" symbol="driver"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="7" lineNum="62" parent="globals/Space" pc="268436138" symbol="driver"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="7" lineNum="63" parent="globals/Space" pc="268436159" symbol="driver"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="8" lineNum="66" parent="globals/Space" pc="268436176" symbol="checkShipLocation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="8" lineNum="67" parent="globals/Space" pc="268436180" symbol="checkShipLocation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="8" lineNum="68" parent="globals/Space" pc="268436203" symbol="checkShipLocation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="8" lineNum="69" parent="globals/Space" pc="268436228" symbol="checkShipLocation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="8" lineNum="70" parent="globals/Space" pc="268436254" symbol="checkShipLocation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="8" lineNum="72" parent="globals/Space" pc="268436276" symbol="checkShipLocation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="8" lineNum="73" parent="globals/Space" pc="268436299" symbol="checkShipLocation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="8" lineNum="74" parent="globals/Space" pc="268436324" symbol="checkShipLocation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="8" lineNum="75" parent="globals/Space" pc="268436350" symbol="checkShipLocation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="9" lineNum="79" parent="globals/Space" pc="268436373" symbol="drawShip"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="10" lineNum="83" parent="globals/Space" pc="268436378" symbol="clearScreen"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="10" lineNum="84" parent="globals/Space" pc="268436382" symbol="clearScreen"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="11" lineNum="14" parent="globals/Space" pc="268440138" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="11" lineNum="17" parent="globals/Space" pc="268440156" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="11" lineNum="18" parent="globals/Space" pc="268440170" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Space.mc" id="11" lineNum="14" parent="globals/Space" pc="268440138" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="13" lineNum="7" parent="globals/AsteroidIQApp" pc="268436395" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="13" lineNum="8" parent="globals/AsteroidIQApp" pc="268436399" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="14" lineNum="12" parent="globals/AsteroidIQApp" pc="268436418" symbol="onStart"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="15" lineNum="16" parent="globals/AsteroidIQApp" pc="268436423" symbol="onStop"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="16" lineNum="20" parent="globals/AsteroidIQApp" pc="268436428" symbol="getInitialView"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="16" lineNum="21" parent="globals/AsteroidIQApp" pc="268436432" symbol="getInitialView"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="16" lineNum="22" parent="globals/AsteroidIQApp" pc="268436456" symbol="getInitialView"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="16" lineNum="23" parent="globals/AsteroidIQApp" pc="268436482" symbol="getInitialView"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="17" lineNum="5" parent="globals/AsteroidIQApp" pc="268440005" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="17" lineNum="5" parent="globals/AsteroidIQApp" pc="268440005" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="18" lineNum="29" parent="globals" pc="268436510" symbol="getApp"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQApp.mc" id="18" lineNum="30" parent="globals" pc="268436522" symbol="getApp"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="20" lineNum="6" parent="globals/AsteroidIQDelegate" pc="268436539" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="20" lineNum="7" parent="globals/AsteroidIQDelegate" pc="268436543" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="21" lineNum="10" parent="globals/AsteroidIQDelegate" pc="268436562" symbol="onMenu"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="21" lineNum="11" parent="globals/AsteroidIQDelegate" pc="268436566" symbol="onMenu"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="21" lineNum="12" parent="globals/AsteroidIQDelegate" pc="268436650" symbol="onMenu"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="22" lineNum="4" parent="globals/AsteroidIQDelegate" pc="268439917" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQDelegate.mc" id="22" lineNum="4" parent="globals/AsteroidIQDelegate" pc="268439917" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="24" lineNum="5" parent="globals/SpaceDelegate" pc="268436654" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="24" lineNum="6" parent="globals/SpaceDelegate" pc="268436658" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="24" lineNum="7" parent="globals/SpaceDelegate" pc="268436668" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="25" lineNum="10" parent="globals/SpaceDelegate" pc="268436687" symbol="onSelect"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="25" lineNum="11" parent="globals/SpaceDelegate" pc="268436691" symbol="onSelect"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="25" lineNum="12" parent="globals/SpaceDelegate" pc="268436713" symbol="onSelect"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="25" lineNum="13" parent="globals/SpaceDelegate" pc="268436735" symbol="onSelect"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="25" lineNum="14" parent="globals/SpaceDelegate" pc="268436757" symbol="onSelect"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="25" lineNum="15" parent="globals/SpaceDelegate" pc="268436787" symbol="onSelect"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="26" lineNum="19" parent="globals/SpaceDelegate" pc="268436814" symbol="onNextPage"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="26" lineNum="20" parent="globals/SpaceDelegate" pc="268436818" symbol="onNextPage"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="27" lineNum="23" parent="globals/SpaceDelegate" pc="268436843" symbol="onPreviousPage"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="27" lineNum="24" parent="globals/SpaceDelegate" pc="268436847" symbol="onPreviousPage"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="28" lineNum="27" parent="globals/SpaceDelegate" pc="268436872" symbol="onBack"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="28" lineNum="28" parent="globals/SpaceDelegate" pc="268436876" symbol="onBack"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="28" lineNum="29" parent="globals/SpaceDelegate" pc="268436900" symbol="onBack"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="29" lineNum="3" parent="globals/SpaceDelegate" pc="268439936" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/SpaceDelegate.mc" id="29" lineNum="3" parent="globals/SpaceDelegate" pc="268439936" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="31" lineNum="6" parent="globals/AsteroidIQView" pc="268436904" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="31" lineNum="7" parent="globals/AsteroidIQView" pc="268436908" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="32" lineNum="11" parent="globals/AsteroidIQView" pc="268436927" symbol="onLayout"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="32" lineNum="12" parent="globals/AsteroidIQView" pc="268436931" symbol="onLayout"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="33" lineNum="18" parent="globals/AsteroidIQView" pc="268436969" symbol="onShow"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="34" lineNum="22" parent="globals/AsteroidIQView" pc="268436974" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="34" lineNum="24" parent="globals/AsteroidIQView" pc="268436978" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="35" lineNum="30" parent="globals/AsteroidIQView" pc="268436999" symbol="onHide"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="36" lineNum="4" parent="globals/AsteroidIQView" pc="268440098" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQView.mc" id="36" lineNum="4" parent="globals/AsteroidIQView" pc="268440098" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="38" lineNum="7" parent="globals/AsteroidIQMenuDelegate" pc="268437004" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="38" lineNum="8" parent="globals/AsteroidIQMenuDelegate" pc="268437008" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="39" lineNum="11" parent="globals/AsteroidIQMenuDelegate" pc="268437027" symbol="onMenuItem"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="39" lineNum="12" parent="globals/AsteroidIQMenuDelegate" pc="268437031" symbol="onMenuItem"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="39" lineNum="13" parent="globals/AsteroidIQMenuDelegate" pc="268437042" symbol="onMenuItem"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="39" lineNum="14" parent="globals/AsteroidIQMenuDelegate" pc="268437066" symbol="onMenuItem"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="39" lineNum="15" parent="globals/AsteroidIQMenuDelegate" pc="268437077" symbol="onMenuItem"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="40" lineNum="5" parent="globals/AsteroidIQMenuDelegate" pc="268440117" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/AsteroidIQMenuDelegate.mc" id="40" lineNum="5" parent="globals/AsteroidIQMenuDelegate" pc="268440117" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Asteroid.mc" id="42" lineNum="9" parent="globals/Asteroid" pc="268437102" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Asteroid.mc" id="42" lineNum="10" parent="globals/Asteroid" pc="268437106" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Asteroid.mc" id="42" lineNum="11" parent="globals/Asteroid" pc="268437136" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Asteroid.mc" id="42" lineNum="12" parent="globals/Asteroid" pc="268437155" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Asteroid.mc" id="43" lineNum="15" parent="globals/Asteroid" pc="268437168" symbol="computeStartingPoint"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Asteroid.mc" id="43" lineNum="17" parent="globals/Asteroid" pc="268437172" symbol="computeStartingPoint"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Asteroid.mc" id="43" lineNum="18" parent="globals/Asteroid" pc="268437185" symbol="computeStartingPoint"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Asteroid.mc" id="44" lineNum="21" parent="globals/Asteroid" pc="268437199" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Asteroid.mc" id="44" lineNum="22" parent="globals/Asteroid" pc="268437203" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Asteroid.mc" id="44" lineNum="23" parent="globals/Asteroid" pc="268437223" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Asteroid.mc" id="45" lineNum="2" parent="globals/Asteroid" pc="268440186" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="47" lineNum="8" parent="globals/Gravity" pc="268437257" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="47" lineNum="9" parent="globals/Gravity" pc="268437261" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="47" lineNum="10" parent="globals/Gravity" pc="268437274" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="47" lineNum="11" parent="globals/Gravity" pc="268437287" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="47" lineNum="12" parent="globals/Gravity" pc="268437300" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="47" lineNum="13" parent="globals/Gravity" pc="268437313" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="48" lineNum="16" parent="globals/Gravity" pc="268437327" symbol="getNextCoordinate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="48" lineNum="17" parent="globals/Gravity" pc="268437331" symbol="getNextCoordinate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="48" lineNum="18" parent="globals/Gravity" pc="268437390" symbol="getNextCoordinate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="49" lineNum="21" parent="globals/Gravity" pc="268437450" symbol="setY"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="49" lineNum="21" parent="globals/Gravity" pc="268437454" symbol="setY"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="50" lineNum="22" parent="globals/Gravity" pc="268437465" symbol="setX"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="50" lineNum="22" parent="globals/Gravity" pc="268437469" symbol="setX"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="51" lineNum="23" parent="globals/Gravity" pc="268437480" symbol="apply"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="51" lineNum="24" parent="globals/Gravity" pc="268437484" symbol="apply"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="51" lineNum="25" parent="globals/Gravity" pc="268437496" symbol="apply"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="51" lineNum="26" parent="globals/Gravity" pc="268437518" symbol="apply"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="28" parent="globals/Gravity" pc="268437541" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="29" parent="globals/Gravity" pc="268437545" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="30" parent="globals/Gravity" pc="268437558" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="31" parent="globals/Gravity" pc="268437571" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="32" parent="globals/Gravity" pc="268437591" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="33" parent="globals/Gravity" pc="268437616" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="34" parent="globals/Gravity" pc="268437635" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="35" parent="globals/Gravity" pc="268437652" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="36" parent="globals/Gravity" pc="268437665" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="38" parent="globals/Gravity" pc="268437681" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="39" parent="globals/Gravity" pc="268437701" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="41" parent="globals/Gravity" pc="268437723" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="42" parent="globals/Gravity" pc="268437744" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="43" parent="globals/Gravity" pc="268437765" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="44" parent="globals/Gravity" pc="268437773" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="46" parent="globals/Gravity" pc="268437805" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="48" parent="globals/Gravity" pc="268437834" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="52" lineNum="49" parent="globals/Gravity" pc="268437854" symbol="forceFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="53" lineNum="54" parent="globals/Gravity" pc="268437877" symbol="calculateRotationFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="53" lineNum="55" parent="globals/Gravity" pc="268437881" symbol="calculateRotationFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="53" lineNum="56" parent="globals/Gravity" pc="268437892" symbol="calculateRotationFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="53" lineNum="58" parent="globals/Gravity" pc="268437904" symbol="calculateRotationFrom"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Gravity.mc" id="54" lineNum="1" parent="globals/Gravity" pc="268440004" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="56" lineNum="11" parent="globals/Missile" pc="268437920" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="56" lineNum="12" parent="globals/Missile" pc="268437924" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="56" lineNum="13" parent="globals/Missile" pc="268437934" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="56" lineNum="14" parent="globals/Missile" pc="268437944" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="57" lineNum="17" parent="globals/Missile" pc="268437955" symbol="radians"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="57" lineNum="17" parent="globals/Missile" pc="268437959" symbol="radians"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="58" lineNum="19" parent="globals/Missile" pc="268437975" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="58" lineNum="20" parent="globals/Missile" pc="268437979" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="58" lineNum="21" parent="globals/Missile" pc="268437992" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="58" lineNum="22" parent="globals/Missile" pc="268438014" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="58" lineNum="23" parent="globals/Missile" pc="268438036" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="58" lineNum="24" parent="globals/Missile" pc="268438053" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="59" lineNum="27" parent="globals/Missile" pc="268438082" symbol="getNextCoordinate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="59" lineNum="28" parent="globals/Missile" pc="268438086" symbol="getNextCoordinate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="59" lineNum="29" parent="globals/Missile" pc="268438093" symbol="getNextCoordinate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="59" lineNum="30" parent="globals/Missile" pc="268438132" symbol="getNextCoordinate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="59" lineNum="31" parent="globals/Missile" pc="268438171" symbol="getNextCoordinate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Missile.mc" id="60" lineNum="6" parent="globals/Missile" pc="268440185" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Util.mc" id="62" lineNum="3" parent="globals/Util" pc="268438199" symbol="abs"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Util.mc" id="62" lineNum="4" parent="globals/Util" pc="268438203" symbol="abs"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Util.mc" id="63" lineNum="7" parent="globals/Util" pc="268438235" symbol="radians"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Util.mc" id="63" lineNum="8" parent="globals/Util" pc="268438239" symbol="radians"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Util.mc" id="65" lineNum="2" parent="globals/Util/statics" pc="268440137" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Util.mc" id="65" lineNum="2" parent="globals/Util" pc="268440136" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Util.mc" id="66" lineNum="2" parent="globals/Util" pc="268438255" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="68" lineNum="27" parent="globals/Ship" pc="268438258" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="68" lineNum="28" parent="globals/Ship" pc="268438262" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="68" lineNum="29" parent="globals/Ship" pc="268438275" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="68" lineNum="30" parent="globals/Ship" pc="268438288" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="69" lineNum="33" parent="globals/Ship" pc="268438319" symbol="speed"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="69" lineNum="33" parent="globals/Ship" pc="268438323" symbol="speed"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="70" lineNum="35" parent="globals/Ship" pc="268438342" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="70" lineNum="36" parent="globals/Ship" pc="268438346" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="70" lineNum="37" parent="globals/Ship" pc="268438358" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="70" lineNum="38" parent="globals/Ship" pc="268438410" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="70" lineNum="39" parent="globals/Ship" pc="268438462" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="70" lineNum="40" parent="globals/Ship" pc="268438514" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="70" lineNum="41" parent="globals/Ship" pc="268438535" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="70" lineNum="42" parent="globals/Ship" pc="268438555" symbol="draw"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="71" lineNum="45" parent="globals/Ship" pc="268438570" symbol="applyRotation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="71" lineNum="46" parent="globals/Ship" pc="268438574" symbol="applyRotation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="71" lineNum="47" parent="globals/Ship" pc="268438582" symbol="applyRotation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="71" lineNum="48" parent="globals/Ship" pc="268438710" symbol="applyRotation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="71" lineNum="49" parent="globals/Ship" pc="268438734" symbol="applyRotation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="71" lineNum="50" parent="globals/Ship" pc="268438741" symbol="applyRotation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="71" lineNum="51" parent="globals/Ship" pc="268438842" symbol="applyRotation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="71" lineNum="52" parent="globals/Ship" pc="268438943" symbol="applyRotation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="71" lineNum="53" parent="globals/Ship" pc="268438956" symbol="applyRotation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="71" lineNum="54" parent="globals/Ship" pc="268438969" symbol="applyRotation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="71" lineNum="57" parent="globals/Ship" pc="268439020" symbol="applyRotation"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="72" lineNum="60" parent="globals/Ship" pc="268439024" symbol="rotateCounterClockWise"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="72" lineNum="61" parent="globals/Ship" pc="268439028" symbol="rotateCounterClockWise"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="72" lineNum="62" parent="globals/Ship" pc="268439081" symbol="rotateCounterClockWise"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="73" lineNum="64" parent="globals/Ship" pc="268439106" symbol="rotateClockWise"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="73" lineNum="65" parent="globals/Ship" pc="268439110" symbol="rotateClockWise"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="74" lineNum="68" parent="globals/Ship" pc="268439139" symbol="gas"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="74" lineNum="71" parent="globals/Ship" pc="268439143" symbol="gas"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="75" lineNum="75" parent="globals/Ship" pc="268439170" symbol="getNextCoordinate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="75" lineNum="76" parent="globals/Ship" pc="268439174" symbol="getNextCoordinate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="75" lineNum="77" parent="globals/Ship" pc="268439228" symbol="getNextCoordinate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="75" lineNum="78" parent="globals/Ship" pc="268439282" symbol="getNextCoordinate"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="76" lineNum="81" parent="globals/Ship" pc="268439310" symbol="applyGravity"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="76" lineNum="82" parent="globals/Ship" pc="268439314" symbol="applyGravity"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="76" lineNum="84" parent="globals/Ship" pc="268439332" symbol="applyGravity"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="76" lineNum="85" parent="globals/Ship" pc="268439360" symbol="applyGravity"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="77" lineNum="90" parent="globals/Ship" pc="268439389" symbol="shiftSpeed"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="77" lineNum="91" parent="globals/Ship" pc="268439393" symbol="shiftSpeed"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="78" lineNum="21" parent="globals/Ship" pc="268440024" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="78" lineNum="23" parent="globals/Ship" pc="268440044" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="78" lineNum="17" parent="globals/Ship" pc="268440024" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="79" lineNum="96" parent="globals" pc="268439406" symbol="print"/>
+        <entry filename="/Users/mazefest/Developer/AsteroidIQ/source/Ship.mc" id="79" lineNum="97" parent="globals" pc="268439418" symbol="print"/>
+        <entry filename="Rez" id="81" lineNum="2" parent="globals/Rez/Drawables" pc="268439979" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="82" lineNum="7" parent="globals/Rez/Fonts" pc="268440000" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="83" lineNum="9" parent="globals/Rez/JsonData" pc="268440002" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="84" lineNum="18" parent="globals/Rez/Layouts" pc="268439437" symbol="MainLayout"/>
+        <entry filename="Rez" id="84" lineNum="20" parent="globals/Rez/Layouts" pc="268439449" symbol="MainLayout"/>
+        <entry filename="Rez" id="84" lineNum="21" parent="globals/Rez/Layouts" pc="268439601" symbol="MainLayout"/>
+        <entry filename="Rez" id="84" lineNum="22" parent="globals/Rez/Layouts" pc="268439713" symbol="MainLayout"/>
+        <entry filename="Rez" id="84" lineNum="24" parent="globals/Rez/Layouts" pc="268439753" symbol="MainLayout"/>
+        <entry filename="Rez" id="85" lineNum="11" parent="globals/Rez/Layouts" pc="268440001" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="86" lineNum="38" parent="globals/Rez/Menus/MainMenu" pc="268439781" symbol="initialize"/>
+        <entry filename="Rez" id="86" lineNum="39" parent="globals/Rez/Menus/MainMenu" pc="268439785" symbol="initialize"/>
+        <entry filename="Rez" id="86" lineNum="40" parent="globals/Rez/Menus/MainMenu" pc="268439803" symbol="initialize"/>
+        <entry filename="Rez" id="86" lineNum="41" parent="globals/Rez/Menus/MainMenu" pc="268439859" symbol="initialize"/>
+        <entry filename="Rez" id="87" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268439981" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="87" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268439981" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="88" lineNum="29" parent="globals/Rez/Menus" pc="268439980" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="89" lineNum="47" parent="globals/Rez/Strings" pc="268440003" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="90" lineNum="1" parent="globals/Rez" pc="268439955" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="90" lineNum="1" parent="globals/Rez" pc="268439955" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389346" symbol="text"/>
+        <entry id="8390093" method="true" symbol="apply"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="17" object="true" symbol="Missile"/>
-        <entry id="25" method="true" symbol="MainLayout"/>
-        <entry field="true" id="41" symbol="timer"/>
-        <entry id="39" method="true" symbol="applyGravity"/>
-        <entry id="10" object="true" symbol="Space"/>
-        <entry field="true" id="30" symbol="rotation"/>
-        <entry id="35" method="true" symbol="applyRotation"/>
+        <entry id="19" object="true" symbol="Missile"/>
+        <entry id="20" object="true" symbol="Util"/>
+        <entry id="28" method="true" symbol="MainLayout"/>
+        <entry field="true" id="52" symbol="asteroids"/>
+        <entry field="true" id="49" symbol="timer"/>
+        <entry id="37" method="true" symbol="forceFrom"/>
+        <entry id="47" method="true" symbol="applyGravity"/>
+        <entry id="11" object="true" symbol="Space"/>
+        <entry field="true" id="39" symbol="rotation"/>
+        <entry id="43" method="true" symbol="applyRotation"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry id="11" object="true" symbol="AsteroidIQApp"/>
-        <entry id="14" object="true" symbol="AsteroidIQView"/>
-        <entry field="true" id="33" symbol="speedIndex"/>
-        <entry field="true" id="29" symbol="AppName"/>
-        <entry id="46" method="true" symbol="drawShip"/>
+        <entry id="12" object="true" symbol="AsteroidIQApp"/>
+        <entry id="57" method="true" symbol="checkShipLocation"/>
+        <entry field="true" id="8388782" method="true" symbol="size"/>
+        <entry id="55" method="true" symbol="drawMissiles"/>
+        <entry id="15" object="true" symbol="AsteroidIQView"/>
+        <entry field="true" id="41" symbol="speedIndex"/>
+        <entry field="true" id="32" symbol="AppName"/>
+        <entry id="58" method="true" symbol="drawShip"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8389345" symbol="rezId"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8388774" method="true" symbol="abs"/>
         <entry id="8389081" method="true" symbol="onBack"/>
-        <entry id="47" method="true" symbol="clearScreen"/>
+        <entry id="59" method="true" symbol="clearScreen"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="28" symbol="prompt"/>
-        <entry field="true" id="22" symbol="id_monkey"/>
+        <entry field="true" id="31" symbol="prompt"/>
+        <entry field="true" id="25" symbol="id_monkey"/>
+        <entry id="54" method="true" symbol="drawAsteroids"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry id="38" method="true" symbol="gas"/>
-        <entry id="9" method="true" symbol="startGame"/>
-        <entry id="13" object="true" symbol="SpaceDelegate"/>
+        <entry id="46" method="true" symbol="gas"/>
+        <entry id="10" method="true" symbol="startGame"/>
+        <entry id="14" object="true" symbol="SpaceDelegate"/>
+        <entry id="8388712" method="true" symbol="print"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="49" symbol="item_2"/>
-        <entry id="48" symbol="item_1"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry id="62" symbol="item_2"/>
+        <entry id="61" symbol="item_1"/>
         <entry id="8389079" method="true" symbol="onPreviousPage"/>
-        <entry id="21" module="true" symbol="Menus"/>
+        <entry id="24" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry field="true" id="8389066" symbol="width"/>
-        <entry id="36" method="true" symbol="rotateCounterClockWise"/>
+        <entry id="44" method="true" symbol="rotateCounterClockWise"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry field="true" id="32" symbol="speeds"/>
-        <entry field="true" id="34" symbol="gravity"/>
-        <entry field="true" id="42" symbol="ship"/>
-        <entry id="45" method="true" symbol="driver"/>
+        <entry field="true" id="40" symbol="speeds"/>
+        <entry field="true" id="42" symbol="gravity"/>
+        <entry field="true" id="50" symbol="ship"/>
+        <entry field="true" id="34" symbol="gravitationalSpeed"/>
+        <entry id="56" method="true" symbol="driver"/>
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="60" method="true" symbol="computeStartingPoint"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="8389316" method="true" symbol="radians"/>
-        <entry id="24" object="true" symbol="MainMenu"/>
-        <entry field="true" id="43" symbol="missiles"/>
-        <entry id="15" object="true" symbol="AsteroidIQMenuDelegate"/>
-        <entry id="37" method="true" symbol="rotateClockWise"/>
+        <entry id="27" object="true" symbol="MainMenu"/>
+        <entry field="true" id="51" symbol="missiles"/>
+        <entry id="16" object="true" symbol="AsteroidIQMenuDelegate"/>
+        <entry id="45" method="true" symbol="rotateClockWise"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="18" object="true" symbol="Ship"/>
+        <entry id="21" object="true" symbol="Ship"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry id="16" object="true" symbol="Gravity"/>
-        <entry field="true" id="23" symbol="LauncherIcon"/>
+        <entry id="18" object="true" symbol="Gravity"/>
+        <entry field="true" id="26" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry field="true" id="8388958" method="true" symbol="speed"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="35" symbol="maxGravitationalSpeed"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="19" symbol="view"/>
+        <entry field="true" id="22" symbol="view"/>
         <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="17" object="true" symbol="Asteroid"/>
+        <entry id="38" method="true" symbol="calculateRotationFrom"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry field="true" id="8389347" symbol="color"/>
-        <entry id="40" method="true" symbol="shiftSpeed"/>
+        <entry id="9" module="true" symbol="globals/Util"/>
+        <entry id="48" method="true" symbol="shiftSpeed"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
         <entry id="8391437" method="true" symbol="setY"/>
-        <entry id="20" module="true" symbol="Layouts"/>
+        <entry id="23" module="true" symbol="Layouts"/>
         <entry id="8391436" method="true" symbol="setX"/>
-        <entry id="31" method="true" symbol="getNextCoordinate"/>
-        <entry id="12" object="true" symbol="AsteroidIQDelegate"/>
+        <entry id="36" method="true" symbol="getNextCoordinate"/>
+        <entry id="13" object="true" symbol="AsteroidIQDelegate"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="33" symbol="direction"/>
         <entry id="8389078" method="true" symbol="onNextPage"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="8390079" symbol="y"/>
         <entry field="true" id="8390078" symbol="x"/>
-        <entry field="true" id="44" symbol="timeOutCount"/>
-        <entry field="true" id="27" symbol="menu_label_2"/>
-        <entry field="true" id="26" symbol="menu_label_1"/>
+        <entry field="true" id="53" symbol="timeOutCount"/>
+        <entry field="true" id="30" symbol="menu_label_2"/>
+        <entry field="true" id="29" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
         <entry endPc="268435553" name="view" stackId="1" startPc="268435468"/>
         <entry endPc="268435553" name="delegate" stackId="2" startPc="268435468"/>
         <entry endPc="268435553" name="transition" stackId="3" startPc="268435468"/>
-        <entry endPc="268435893" name="i" stackId="2" startPc="268435858"/>
-        <entry arg="true" endPc="268435894" name="dc" stackId="1" startPc="268435700"/>
-        <entry arg="true" endPc="268435994" name="dc" stackId="1" startPc="268435978"/>
-        <entry arg="true" endPc="268436022" name="state" stackId="1" startPc="268436018"/>
-        <entry arg="true" endPc="268436027" name="state" stackId="1" startPc="268436023"/>
-        <entry endPc="268436108" name="view" stackId="1" startPc="268436032"/>
-        <entry endPc="268436108" name="delegate" stackId="2" startPc="268436032"/>
-        <entry arg="true" endPc="268436286" name="view" stackId="1" startPc="268436254"/>
-        <entry endPc="268436412" name="x" stackId="1" startPc="268436291"/>
-        <entry endPc="268436412" name="missile" stackId="4" startPc="268436291"/>
-        <entry endPc="268436412" name="rotation" stackId="3" startPc="268436291"/>
-        <entry endPc="268436412" name="y" stackId="2" startPc="268436291"/>
-        <entry arg="true" endPc="268436568" name="dc" stackId="1" startPc="268436527"/>
-        <entry arg="true" endPc="268436598" name="dc" stackId="1" startPc="268436574"/>
-        <entry arg="true" endPc="268436701" name="item" stackId="1" startPc="268436627"/>
-        <entry arg="true" endPc="268436721" name="degrees" stackId="1" startPc="268436702"/>
-        <entry arg="true" endPc="268436904" name="value" stackId="1" startPc="268436890"/>
-        <entry arg="true" endPc="268436919" name="value" stackId="1" startPc="268436905"/>
-        <entry arg="true" endPc="268436954" name="x" stackId="1" startPc="268436920"/>
-        <entry arg="true" endPc="268436954" name="rotation" stackId="3" startPc="268436920"/>
-        <entry arg="true" endPc="268436954" name="y" stackId="2" startPc="268436920"/>
-        <entry arg="true" endPc="268436974" name="degrees" stackId="1" startPc="268436955"/>
-        <entry endPc="268437080" name="a" stackId="2" startPc="268436979"/>
-        <entry arg="true" endPc="268437081" name="dc" stackId="1" startPc="268436975"/>
-        <entry endPc="268437197" name="x" stackId="3" startPc="268437086"/>
-        <entry endPc="268437197" name="speed" stackId="1" startPc="268437086"/>
-        <entry endPc="268437197" name="y" stackId="2" startPc="268437086"/>
-        <entry arg="true" endPc="268437302" name="degrees" stackId="1" startPc="268437283"/>
-        <entry endPc="268437529" name="pointFace" stackId="4" startPc="268437307"/>
-        <entry endPc="268437529" name="pointLeft" stackId="2" startPc="268437307"/>
-        <entry endPc="268437529" name="pointRight" stackId="3" startPc="268437307"/>
-        <entry endPc="268437529" name="pts" stackId="5" startPc="268437307"/>
-        <entry arg="true" endPc="268437530" name="dc" stackId="1" startPc="268437303"/>
-        <entry endPc="268437943" name="point" stackId="5" startPc="268437695"/>
-        <entry endPc="268437943" name="newY" stackId="6" startPc="268437695"/>
-        <entry endPc="268437943" name="newX" stackId="7" startPc="268437695"/>
-        <entry endPc="268437956" name="i" stackId="4" startPc="268437695"/>
-        <entry endPc="268437959" name="points" stackId="3" startPc="268437535"/>
-        <entry endPc="268437959" name="pts" stackId="2" startPc="268437535"/>
-        <entry arg="true" endPc="268437960" name="degrees" stackId="1" startPc="268437531"/>
-        <entry endPc="268438276" name="x" stackId="2" startPc="268438154"/>
-        <entry endPc="268438276" name="y" stackId="1" startPc="268438154"/>
-        <entry endPc="268438716" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268438386"/>
-        <entry endPc="268438716" name="rez_cmp_local_text_1608707964" stackId="2" startPc="268438386"/>
-        <entry arg="true" endPc="268438717" name="dc" stackId="1" startPc="268438374"/>
+        <entry endPc="268435742" name="asteroid" stackId="1" startPc="268435559"/>
+        <entry arg="true" endPc="268435786" name="dc" stackId="1" startPc="268435744"/>
+        <entry arg="true" endPc="268435955" name="dc" stackId="1" startPc="268435787"/>
+        <entry endPc="268436025" name="i" stackId="2" startPc="268435990"/>
+        <entry arg="true" endPc="268436026" name="dc" stackId="1" startPc="268435956"/>
+        <entry endPc="268436096" name="i" stackId="2" startPc="268436061"/>
+        <entry arg="true" endPc="268436097" name="dc" stackId="1" startPc="268436027"/>
+        <entry arg="true" endPc="268436394" name="dc" stackId="1" startPc="268436378"/>
+        <entry arg="true" endPc="268436422" name="state" stackId="1" startPc="268436418"/>
+        <entry arg="true" endPc="268436427" name="state" stackId="1" startPc="268436423"/>
+        <entry endPc="268436508" name="view" stackId="1" startPc="268436432"/>
+        <entry endPc="268436508" name="delegate" stackId="2" startPc="268436432"/>
+        <entry arg="true" endPc="268436686" name="view" stackId="1" startPc="268436654"/>
+        <entry endPc="268436812" name="x" stackId="1" startPc="268436691"/>
+        <entry endPc="268436812" name="missile" stackId="4" startPc="268436691"/>
+        <entry endPc="268436812" name="rotation" stackId="3" startPc="268436691"/>
+        <entry endPc="268436812" name="y" stackId="2" startPc="268436691"/>
+        <entry arg="true" endPc="268436968" name="dc" stackId="1" startPc="268436927"/>
+        <entry arg="true" endPc="268436998" name="dc" stackId="1" startPc="268436974"/>
+        <entry arg="true" endPc="268437101" name="item" stackId="1" startPc="268437027"/>
+        <entry arg="true" endPc="268437256" name="dc" stackId="1" startPc="268437199"/>
+        <entry arg="true" endPc="268437464" name="value" stackId="1" startPc="268437450"/>
+        <entry arg="true" endPc="268437479" name="value" stackId="1" startPc="268437465"/>
+        <entry arg="true" endPc="268437540" name="object" stackId="1" startPc="268437480"/>
+        <entry endPc="268437875" name="tempTwoAbs" stackId="6" startPc="268437723"/>
+        <entry endPc="268437875" name="tempOneAbs" stackId="5" startPc="268437723"/>
+        <entry endPc="268437875" name="tempThree" stackId="4" startPc="268437545"/>
+        <entry endPc="268437875" name="tempTwo" stackId="3" startPc="268437545"/>
+        <entry endPc="268437875" name="tempOne" stackId="2" startPc="268437545"/>
+        <entry arg="true" endPc="268437876" name="rotation" stackId="1" startPc="268437541"/>
+        <entry arg="true" endPc="268437919" name="newRotationAbs" stackId="2" startPc="268437877"/>
+        <entry arg="true" endPc="268437919" name="newRotation" stackId="1" startPc="268437877"/>
+        <entry arg="true" endPc="268437954" name="x" stackId="1" startPc="268437920"/>
+        <entry arg="true" endPc="268437954" name="rotation" stackId="3" startPc="268437920"/>
+        <entry arg="true" endPc="268437954" name="y" stackId="2" startPc="268437920"/>
+        <entry arg="true" endPc="268437974" name="degrees" stackId="1" startPc="268437955"/>
+        <entry endPc="268438080" name="a" stackId="2" startPc="268437979"/>
+        <entry arg="true" endPc="268438081" name="dc" stackId="1" startPc="268437975"/>
+        <entry endPc="268438197" name="x" stackId="3" startPc="268438086"/>
+        <entry endPc="268438197" name="speed" stackId="1" startPc="268438086"/>
+        <entry endPc="268438197" name="y" stackId="2" startPc="268438086"/>
+        <entry arg="true" endPc="268438234" name="value" stackId="1" startPc="268438199"/>
+        <entry arg="true" endPc="268438254" name="degrees" stackId="1" startPc="268438235"/>
+        <entry endPc="268438568" name="pointFace" stackId="4" startPc="268438346"/>
+        <entry endPc="268438568" name="pointLeft" stackId="2" startPc="268438346"/>
+        <entry endPc="268438568" name="pointRight" stackId="3" startPc="268438346"/>
+        <entry endPc="268438568" name="pts" stackId="5" startPc="268438346"/>
+        <entry arg="true" endPc="268438569" name="dc" stackId="1" startPc="268438342"/>
+        <entry endPc="268439006" name="point" stackId="5" startPc="268438734"/>
+        <entry endPc="268439006" name="newY" stackId="6" startPc="268438734"/>
+        <entry endPc="268439006" name="newX" stackId="7" startPc="268438734"/>
+        <entry endPc="268439019" name="i" stackId="4" startPc="268438734"/>
+        <entry endPc="268439022" name="points" stackId="3" startPc="268438574"/>
+        <entry endPc="268439022" name="pts" stackId="2" startPc="268438574"/>
+        <entry arg="true" endPc="268439023" name="degrees" stackId="1" startPc="268438570"/>
+        <entry endPc="268439308" name="x" stackId="2" startPc="268439174"/>
+        <entry endPc="268439308" name="y" stackId="1" startPc="268439174"/>
+        <entry arg="true" endPc="268439436" name="string" stackId="1" startPc="268439406"/>
+        <entry endPc="268439779" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268439449"/>
+        <entry endPc="268439779" name="rez_cmp_local_text_1837900836" stackId="2" startPc="268439449"/>
+        <entry arg="true" endPc="268439780" name="dc" stackId="1" startPc="268439437"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
@@ -345,236 +442,293 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
     </annotations>
     <dataEntryOffsetMappings>
-        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/AsteroidIQDelegate" offset="222" parentId="globals" symbolId="AsteroidIQDelegate" type="class"/>
-        <dataEntry label="globals/SpaceDelegate" offset="277" parentId="globals" symbolId="SpaceDelegate" type="class"/>
-        <dataEntry label="globals/Rez" offset="364" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/Rez/Drawables" offset="443" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="490" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="529" parentId="Menus" symbolId="MainMenu" type="class"/>
-        <dataEntry label="globals/Rez/Fonts" offset="576" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="607" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="646" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="677" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Gravity" offset="740" parentId="globals" symbolId="Gravity" type="class"/>
-        <dataEntry label="globals/AsteroidIQApp" offset="851" parentId="globals" symbolId="AsteroidIQApp" type="class"/>
-        <dataEntry label="globals/Ship" offset="922" parentId="globals" symbolId="Ship" type="class"/>
-        <dataEntry label="globals/AsteroidIQView" offset="1113" parentId="globals" symbolId="AsteroidIQView" type="class"/>
-        <dataEntry label="globals/AsteroidIQMenuDelegate" offset="1192" parentId="globals" symbolId="AsteroidIQMenuDelegate" type="class"/>
-        <dataEntry label="globals/Space" offset="1247" parentId="globals" symbolId="Space" type="class"/>
-        <dataEntry label="globals/Missile" offset="1358" parentId="globals" symbolId="Missile" type="class"/>
+        <dataEntry label="globals" offset="95" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/AsteroidIQDelegate" offset="254" parentId="globals" symbolId="AsteroidIQDelegate" type="class"/>
+        <dataEntry label="globals/SpaceDelegate" offset="309" parentId="globals" symbolId="SpaceDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="396" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="475" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="522" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="561" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/Rez/Fonts" offset="608" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="639" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="678" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="709" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Gravity" offset="772" parentId="globals" symbolId="Gravity" type="class"/>
+        <dataEntry label="globals/AsteroidIQApp" offset="907" parentId="globals" symbolId="AsteroidIQApp" type="class"/>
+        <dataEntry label="globals/Ship" offset="978" parentId="globals" symbolId="Ship" type="class"/>
+        <dataEntry label="globals/AsteroidIQView" offset="1161" parentId="globals" symbolId="AsteroidIQView" type="class"/>
+        <dataEntry label="globals/AsteroidIQMenuDelegate" offset="1240" parentId="globals" symbolId="AsteroidIQMenuDelegate" type="class"/>
+        <dataEntry label="globals/Util" offset="1295" parentId="globals" symbolId="Util" type="class"/>
+        <dataEntry label="globals/Util/statics" offset="1342" parentId="globals" symbolId="globals/Util" type="class"/>
+        <dataEntry label="globals/Space" offset="1389" parentId="globals" symbolId="Space" type="class"/>
+        <dataEntry label="globals/Missile" offset="1556" parentId="globals" symbolId="Missile" type="class"/>
+        <dataEntry label="globals/Asteroid" offset="1651" parentId="globals" symbolId="Asteroid" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435554" name="startGame" startPc="268435456">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435699" name="initialize" parent="Space" startPc="268435555">
+        <functionEntry accessMode="public" endPc="268435743" name="initialize" parent="Space" startPc="268435555">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435894" name="onUpdate" parent="Space" startPc="268435700">
+        <functionEntry accessMode="public" endPc="268435786" name="onLayout" parent="Space" startPc="268435744">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435972" name="driver" parent="Space" startPc="268435895">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435977" name="drawShip" parent="Space" startPc="268435973">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435994" name="clearScreen" parent="Space" startPc="268435978">
+        <functionEntry accessMode="public" endPc="268435955" name="onUpdate" parent="Space" startPc="268435787">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439105" name="&lt;init&gt;" parent="Space" startPc="268439073">
+        <functionEntry accessMode="public" endPc="268436026" name="drawAsteroids" parent="Space" startPc="268435956">
+            <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436017" name="initialize" parent="AsteroidIQApp" startPc="268435995">
+        <functionEntry accessMode="public" endPc="268436097" name="drawMissiles" parent="Space" startPc="268436027">
+            <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436022" name="onStart" parent="AsteroidIQApp" startPc="268436018">
+        <functionEntry accessMode="public" endPc="268436175" name="driver" parent="Space" startPc="268436098">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436372" name="checkShipLocation" parent="Space" startPc="268436176">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436377" name="drawShip" parent="Space" startPc="268436373">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436394" name="clearScreen" parent="Space" startPc="268436378">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268440184" name="&lt;init&gt;" parent="Space" startPc="268440138">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436417" name="initialize" parent="AsteroidIQApp" startPc="268436395">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436422" name="onStart" parent="AsteroidIQApp" startPc="268436418">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436027" name="onStop" parent="AsteroidIQApp" startPc="268436023">
+        <functionEntry accessMode="public" endPc="268436427" name="onStop" parent="AsteroidIQApp" startPc="268436423">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436109" name="getInitialView" parent="AsteroidIQApp" startPc="268436028">
+        <functionEntry accessMode="public" endPc="268436509" name="getInitialView" parent="AsteroidIQApp" startPc="268436428">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438960" name="&lt;init&gt;" parent="AsteroidIQApp" startPc="268438942">
+        <functionEntry accessMode="protected" endPc="268440023" name="&lt;init&gt;" parent="AsteroidIQApp" startPc="268440005">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436138" name="getApp" startPc="268436110">
+        <functionEntry accessMode="public" endPc="268436538" name="getApp" startPc="268436510">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436161" name="initialize" parent="AsteroidIQDelegate" startPc="268436139">
+        <functionEntry accessMode="public" endPc="268436561" name="initialize" parent="AsteroidIQDelegate" startPc="268436539">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436253" name="onMenu" parent="AsteroidIQDelegate" startPc="268436162">
+        <functionEntry accessMode="public" endPc="268436653" name="onMenu" parent="AsteroidIQDelegate" startPc="268436562">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438872" name="&lt;init&gt;" parent="AsteroidIQDelegate" startPc="268438854">
+        <functionEntry accessMode="protected" endPc="268439935" name="&lt;init&gt;" parent="AsteroidIQDelegate" startPc="268439917">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436286" name="initialize" parent="SpaceDelegate" startPc="268436254">
+        <functionEntry accessMode="public" endPc="268436686" name="initialize" parent="SpaceDelegate" startPc="268436654">
             <param id="view"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436413" name="onSelect" parent="SpaceDelegate" startPc="268436287">
+        <functionEntry accessMode="public" endPc="268436813" name="onSelect" parent="SpaceDelegate" startPc="268436687">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436442" name="onNextPage" parent="SpaceDelegate" startPc="268436414">
+        <functionEntry accessMode="public" endPc="268436842" name="onNextPage" parent="SpaceDelegate" startPc="268436814">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436471" name="onPreviousPage" parent="SpaceDelegate" startPc="268436443">
+        <functionEntry accessMode="public" endPc="268436871" name="onPreviousPage" parent="SpaceDelegate" startPc="268436843">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436503" name="onBack" parent="SpaceDelegate" startPc="268436472">
+        <functionEntry accessMode="public" endPc="268436903" name="onBack" parent="SpaceDelegate" startPc="268436872">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438891" name="&lt;init&gt;" parent="SpaceDelegate" startPc="268438873">
+        <functionEntry accessMode="protected" endPc="268439954" name="&lt;init&gt;" parent="SpaceDelegate" startPc="268439936">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436526" name="initialize" parent="AsteroidIQView" startPc="268436504">
+        <functionEntry accessMode="public" endPc="268436926" name="initialize" parent="AsteroidIQView" startPc="268436904">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436568" name="onLayout" parent="AsteroidIQView" startPc="268436527">
+        <functionEntry accessMode="public" endPc="268436968" name="onLayout" parent="AsteroidIQView" startPc="268436927">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436573" name="onShow" parent="AsteroidIQView" startPc="268436569">
+        <functionEntry accessMode="public" endPc="268436973" name="onShow" parent="AsteroidIQView" startPc="268436969">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436598" name="onUpdate" parent="AsteroidIQView" startPc="268436574">
+        <functionEntry accessMode="public" endPc="268436998" name="onUpdate" parent="AsteroidIQView" startPc="268436974">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436603" name="onHide" parent="AsteroidIQView" startPc="268436599">
+        <functionEntry accessMode="public" endPc="268437003" name="onHide" parent="AsteroidIQView" startPc="268436999">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439053" name="&lt;init&gt;" parent="AsteroidIQView" startPc="268439035">
+        <functionEntry accessMode="protected" endPc="268440116" name="&lt;init&gt;" parent="AsteroidIQView" startPc="268440098">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436626" name="initialize" parent="AsteroidIQMenuDelegate" startPc="268436604">
+        <functionEntry accessMode="public" endPc="268437026" name="initialize" parent="AsteroidIQMenuDelegate" startPc="268437004">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436701" name="onMenuItem" parent="AsteroidIQMenuDelegate" startPc="268436627">
+        <functionEntry accessMode="public" endPc="268437101" name="onMenuItem" parent="AsteroidIQMenuDelegate" startPc="268437027">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439072" name="&lt;init&gt;" parent="AsteroidIQMenuDelegate" startPc="268439054">
+        <functionEntry accessMode="protected" endPc="268440135" name="&lt;init&gt;" parent="AsteroidIQMenuDelegate" startPc="268440117">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436721" name="radians" parent="Gravity" startPc="268436702">
-            <param id="degrees"/>
+        <functionEntry accessMode="public" endPc="268437167" name="initialize" parent="Asteroid" startPc="268437102">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436778" name="initialize" parent="Gravity" startPc="268436722">
+        <functionEntry accessMode="public" endPc="268437198" name="computeStartingPoint" parent="Asteroid" startPc="268437168">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436889" name="getNextCoordinate" parent="Gravity" startPc="268436779">
+        <functionEntry accessMode="public" endPc="268437256" name="draw" parent="Asteroid" startPc="268437199">
+            <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436904" name="setY" parent="Gravity" startPc="268436890">
+        <functionEntry accessMode="protected" endPc="268440186" name="&lt;init&gt;" parent="Asteroid" startPc="268440186">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437326" name="initialize" parent="Gravity" startPc="268437257">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437449" name="getNextCoordinate" parent="Gravity" startPc="268437327">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437464" name="setY" parent="Gravity" startPc="268437450">
             <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436919" name="setX" parent="Gravity" startPc="268436905">
+        <functionEntry accessMode="public" endPc="268437479" name="setX" parent="Gravity" startPc="268437465">
             <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438941" name="&lt;init&gt;" parent="Gravity" startPc="268438941">
+        <functionEntry accessMode="public" endPc="268437540" name="apply" parent="Gravity" startPc="268437480">
+            <param id="object"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436954" name="initialize" parent="Missile" startPc="268436920">
+        <functionEntry accessMode="public" endPc="268437876" name="forceFrom" parent="Gravity" startPc="268437541">
+            <param id="rotation"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437919" name="calculateRotationFrom" parent="Gravity" startPc="268437877">
+            <param id="newRotation"/>
+            <param id="newRotationAbs"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268440004" name="&lt;init&gt;" parent="Gravity" startPc="268440004">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437954" name="initialize" parent="Missile" startPc="268437920">
             <param id="x"/>
             <param id="y"/>
             <param id="rotation"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436974" name="radians" parent="Missile" startPc="268436955">
+        <functionEntry accessMode="public" endPc="268437974" name="radians" parent="Missile" startPc="268437955">
             <param id="degrees"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437081" name="draw" parent="Missile" startPc="268436975">
+        <functionEntry accessMode="public" endPc="268438081" name="draw" parent="Missile" startPc="268437975">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437198" name="getNextCoordinate" parent="Missile" startPc="268437082">
+        <functionEntry accessMode="public" endPc="268438198" name="getNextCoordinate" parent="Missile" startPc="268438082">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439106" name="&lt;init&gt;" parent="Missile" startPc="268439106">
+        <functionEntry accessMode="protected" endPc="268440185" name="&lt;init&gt;" parent="Missile" startPc="268440185">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437259" name="initialize" parent="Ship" startPc="268437199">
+        <functionEntry accessMode="public" endPc="268438234" name="abs" parent="Util" startPc="268438199">
+            <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437282" name="speed" parent="Ship" startPc="268437260">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268437302" name="radians" parent="Ship" startPc="268437283">
+        <functionEntry accessMode="public" endPc="268438254" name="radians" parent="Util" startPc="268438235">
             <param id="degrees"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437530" name="draw" parent="Ship" startPc="268437303">
+        <functionEntry accessMode="protected" endPc="268440137" name="&lt;init&gt;" parent="globals/Util" startPc="268440137">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268440136" name="&lt;init&gt;" parent="Util" startPc="268440136">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438257" name="initialize" parent="Util" startPc="268438255">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438318" name="initialize" parent="Ship" startPc="268438258">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438341" name="speed" parent="Ship" startPc="268438319">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438569" name="draw" parent="Ship" startPc="268438342">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437960" name="applyRotation" parent="Ship" startPc="268437531">
+        <functionEntry accessMode="public" endPc="268439023" name="applyRotation" parent="Ship" startPc="268438570">
             <param id="degrees"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438044" name="rotateCounterClockWise" parent="Ship" startPc="268437961">
+        <functionEntry accessMode="public" endPc="268439105" name="rotateCounterClockWise" parent="Ship" startPc="268439024">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438103" name="rotateClockWise" parent="Ship" startPc="268438045">
+        <functionEntry accessMode="public" endPc="268439138" name="rotateClockWise" parent="Ship" startPc="268439106">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438149" name="gas" parent="Ship" startPc="268438104">
+        <functionEntry accessMode="public" endPc="268439169" name="gas" parent="Ship" startPc="268439139">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438277" name="getNextCoordinate" parent="Ship" startPc="268438150">
+        <functionEntry accessMode="public" endPc="268439309" name="getNextCoordinate" parent="Ship" startPc="268439170">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438356" name="applyGravity" parent="Ship" startPc="268438278">
+        <functionEntry accessMode="public" endPc="268439388" name="applyGravity" parent="Ship" startPc="268439310">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438373" name="shiftSpeed" parent="Ship" startPc="268438357">
+        <functionEntry accessMode="public" endPc="268439405" name="shiftSpeed" parent="Ship" startPc="268439389">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439034" name="&lt;init&gt;" parent="Ship" startPc="268438961">
+        <functionEntry accessMode="protected" endPc="268440097" name="&lt;init&gt;" parent="Ship" startPc="268440024">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438916" name="&lt;init&gt;" parent="Drawables" startPc="268438916">
+        <functionEntry accessMode="public" endPc="268439436" name="print" startPc="268439406">
+            <param id="string"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438937" name="&lt;init&gt;" parent="Fonts" startPc="268438937">
+        <functionEntry accessMode="protected" endPc="268439979" name="&lt;init&gt;" parent="Drawables" startPc="268439979">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438939" name="&lt;init&gt;" parent="JsonData" startPc="268438939">
+        <functionEntry accessMode="protected" endPc="268440000" name="&lt;init&gt;" parent="Fonts" startPc="268440000">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438717" name="MainLayout" parent="Layouts" startPc="268438374">
+        <functionEntry accessMode="protected" endPc="268440002" name="&lt;init&gt;" parent="JsonData" startPc="268440002">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439780" name="MainLayout" parent="Layouts" startPc="268439437">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438938" name="&lt;init&gt;" parent="Layouts" startPc="268438938">
+        <functionEntry accessMode="protected" endPc="268440001" name="&lt;init&gt;" parent="Layouts" startPc="268440001">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438852" name="initialize" parent="MainMenu" startPc="268438718">
+        <functionEntry accessMode="public" endPc="268439915" name="initialize" parent="MainMenu" startPc="268439781">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438936" name="&lt;init&gt;" parent="MainMenu" startPc="268438918">
+        <functionEntry accessMode="protected" endPc="268439999" name="&lt;init&gt;" parent="MainMenu" startPc="268439981">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438917" name="&lt;init&gt;" parent="Menus" startPc="268438917">
+        <functionEntry accessMode="protected" endPc="268439980" name="&lt;init&gt;" parent="Menus" startPc="268439980">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438940" name="&lt;init&gt;" parent="Strings" startPc="268438940">
+        <functionEntry accessMode="protected" endPc="268440003" name="&lt;init&gt;" parent="Strings" startPc="268440003">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438915" name="&lt;init&gt;" parent="Rez" startPc="268438892">
+        <functionEntry accessMode="protected" endPc="268439978" name="&lt;init&gt;" parent="Rez" startPc="268439955">
             <documentation/>
         </functionEntry>
     </functions>

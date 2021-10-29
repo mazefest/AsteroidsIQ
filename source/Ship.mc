@@ -31,7 +31,6 @@ class Ship {
 	}
 
 	function speed() { return speeds[speedIndex]; }
-	function radians(degrees) { return degrees * (3.146) / 180; }
 
 	function draw(dc) {
 		applyGravity();
@@ -48,8 +47,8 @@ class Ship {
 		var points = [[5, -5], [-5, -5], [0, 10]];
 		for (var i = 0; i < points.size(); i++) {
 			var point = points[i];
-			var newY = point[1] * Math.cos(radians(rotation)) - point[0] * Math.sin(radians(rotation)); 
-			var newX = point[1] * Math.sin(radians(rotation)) + point[0] * Math.cos(radians(rotation)); 
+			var newY = point[1] * Math.cos(Util.radians(rotation)) - point[0] * Math.sin(Util.radians(rotation)); 
+			var newX = point[1] * Math.sin(Util.radians(rotation)) + point[0] * Math.cos(Util.radians(rotation)); 
 			newX += x;
 			newY += y;
 			pts.add([newX, newY]);
@@ -59,23 +58,23 @@ class Ship {
 	}
 
 	function rotateCounterClockWise() {
-		rotation = (rotation - 10) >= 0 ? rotation - 10 : 359;
+		rotation = (rotation - 20) >= 0 ? rotation - 20 : 359;
 		System.println(rotation);
 	}
 	function rotateClockWise() {
-		rotation = (rotation + 10) % 360;
-		System.println(rotation);
+		rotation = (rotation + 20) % 360;
 	}
 
 	function gas() {
-		gravity.speed = 2;
-		gravity.rotation = rotation;
+		//gravity.speed = 2;
+		//`gravity.rotation = rotation;
+		gravity.forceFrom(rotation);
 		
 	}
 
 	function getNextCoordinate() {
-		var y = speed() * Math.cos(radians(rotation));
-		var x = speed() * Math.sin(radians(rotation));
+		var y = speed() * Math.cos(Util.radians(rotation));
+		var x = speed() * Math.sin(Util.radians(rotation));
 		return [x,y];
 	}
 
@@ -92,4 +91,8 @@ class Ship {
 		gas();
 		//speedIndex = (speedIndex + 1) % 3;
 	}
+}
+
+function print(string) {
+	System.println(string);
 }
