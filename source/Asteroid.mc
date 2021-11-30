@@ -1,56 +1,56 @@
 
+using Toybox.Graphics;
+using Toybox.Math;
+
 class Asteroid {
+	enum {Small, Medium, Large}
 	var x;
 	var y;
-	var direction;
 	var size;
 	var speed;
 	var gravity;
-	function initialize() {
+	var color;
+	
+	function initialize(x, y, speed, size, direction) {
+		self.x = x;
+		self.y = y;
+		self.size = size;
 		gravity = new Gravity();
-		gravity.direction = 225;
-		computeStartingPoint();
-	}
-
-	function computeStartingPoint() {
-		// right now all asteroids will come from bottom right corner
-		x = 240;
-		y = 240;
+		gravity.direction = direction;
+		color = Graphics.COLOR_BLUE;
+		//computeStartingPoint();
 	}
 
 	function draw(dc) {
 		gravity.apply(self);
-		dc.drawCircle(x, y, 30);
+		dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+		dc.drawCircle(x, y, self.radius());
+	}
+
+	function radius() {
+		switch(size) {
+			case Small:
+				return 10;
+			case Medium:
+				return 20;
+			case Large:
+				return 30;
+			default:
+				return 20;
+
+		}
+	}
+	function collision(missile) {
+		var a = Math.pow(missile.x - x, 2);
+		var b = Math.pow(missile.y - y, 2);
+		var c = a + b;
+		var x =Math.pow(radius() , 2);
+		var collided = (c <= Math.pow(radius(), 2));
+
+		return collided;
+	}
+
+	function rotate(degrees) {
+		gravity.rotate(degrees);
 	}
 }
-
-// class AsteroidSpeed() {
-// 	enum {Slow, Medium, Fast}
-// 	var speed;
-// 	function initalize() {
-// 		speed = Medium;
-// 	}
-
-// 	function getSpeed() {
-
-// 	}
-// }
-
-
-// class AsteroidSize() {
-// 	enum {Small, Medium, Large}
-// 	var size;	
-// 	function initialize() {
-// 		size = Medium;
-// 	}
-
-// 	function radius() {
-// 		if (size == Small) {
-// 			return 15;
-// 		} else if (size == Medium) {
-// 			return 20;
-// 		} else if (size == Large) {
-// 			return 30;
-// 		}
-// 	}
-// }
