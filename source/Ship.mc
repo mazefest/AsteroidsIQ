@@ -13,6 +13,7 @@ using Toybox.System;
 //@speeds: [int] -> used to determine the advance speed of the ship
 //@speedsIndex: Int -> index used for speeds
 //@gravity: Gravity -> used to implement gravity/momentum of ship
+//@flames: Flames -> Used to draw flames at the back of the ship
 
 class Ship {
 	var x;
@@ -23,10 +24,13 @@ class Ship {
 	var speeds = [1,3,5];
 	var speedIndex = 0;
 	var gravity;
+	var flames;
+	var pointMap = [[5, -5], [-5, -5], [0, 10]];
 
 	function initialize() {
 		x = 120;
 		y = 120;
+		flames = new Flames();
 		gravity = new Gravity();
 	}
 
@@ -37,24 +41,10 @@ class Ship {
 		var pointLeft = [x + 5, y - 5];
 		var pointRight = [x - 5, y - 5];
 		var pointFace = [x - 5, y + 10];
-		var pts = applyRotation(rotation);
+		var pts = Util.rotatePoints([x,y], pointMap, rotation);
 		dc.setPenWidth(width);
 		dc.fillPolygon(pts);
-	}
-
-	function applyRotation(degrees) {
-		var pts = [];
-		var points = [[5, -5], [-5, -5], [0, 10]];
-		for (var i = 0; i < points.size(); i++) {
-			var point = points[i];
-			var newY = point[1] * Math.cos(Util.radians(rotation)) - point[0] * Math.sin(Util.radians(rotation)); 
-			var newX = point[1] * Math.sin(Util.radians(rotation)) + point[0] * Math.cos(Util.radians(rotation)); 
-			newX += x;
-			newY += y;
-			pts.add([newX, newY]);
-		}
-		
-		return pts;
+		flames.draw(dc, x, y, rotation);
 	}
 
 	function rotateCounterClockWise() {
@@ -66,10 +56,8 @@ class Ship {
 	}
 
 	function gas() {
-		//gravity.speed = 2;
-		//`gravity.rotation = rotation;
 		gravity.forceFrom(rotation);
-		
+		flames.activate();
 	}
 
 	function getNextCoordinate() {
@@ -80,16 +68,12 @@ class Ship {
 
 	function applyGravity() {
 		gravity.getNextCoordinate();
-		//var a = getNextCoordinate();
 		x += gravity.x;
 		y += gravity.y;
-		//x += gravity.x;
-		//y += gravity.y;
 	}
 
 	function shiftSpeed() {
 		gas();
-		//speedIndex = (speedIndex + 1) % 3;
 	}
 }
 
