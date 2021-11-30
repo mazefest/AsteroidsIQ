@@ -58,4 +58,13 @@ class Gravity {
 			return (newRotationAbs / 2.0) * -1;
 		}
 	}
+
+	function rotate(degrees) {
+		direction += degrees;
+		if (direction < 0) {
+			direction += 360;
+		} else if (direction >= 360) {
+			direction %= 360;
+		}
+	}
 }
