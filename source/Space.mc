@@ -15,7 +15,7 @@ class Space extends WatchUi.View {
 	var timer;
 	var ship;
 	var missiles = [];
-	var asteroids = [];
+	var asteroidManager;
 	var timeOutCount = 0;
 	var width;
 	var height;
@@ -25,8 +25,7 @@ class Space extends WatchUi.View {
 		timer.start(new Lang.Method(self, :driver), 100, true);
 		ship = new Ship();	
 
-		var asteroid = new Asteroid();
-		asteroids.add(asteroid);
+		asteroidManager = new AsteroidMaker();	
 	}
 
 	function onLayout(dc) {
@@ -42,14 +41,9 @@ class Space extends WatchUi.View {
 		ship.draw(dc);
 		checkShipLocation();
 		drawMissiles(dc);
-		drawAsteroids(dc);
+		asteroidManager.drawAsteroids(dc);
 	}
 
-	function drawAsteroids(dc) {
-		for (var i = 0; i < asteroids.size(); i++) {
-			asteroids[i].draw(dc);
-		}
-	}
 
 	function drawMissiles(dc) {
 		for (var i = 0; i < missiles.size(); i++) {
@@ -57,10 +51,24 @@ class Space extends WatchUi.View {
 		}
 	}
 
+	function checkForMissileAsteroidCollisions() {
+		System.println("Missile Count: " + missiles.size());
+		for (var i = 0; i < missiles.size(); i++) {
+			var missile = missiles[i];
+			if (asteroidManager.collision(missile)) {
+				missiles.remove(missiles[i]);
+			}
+		
+		}
+
+	}
+
 	function driver() {
 		timeOutCount += 1;
 		if (timeOutCount >= 600) {System.exit();}
 		WatchUi.requestUpdate();
+		asteroidManager.checkForLostAsteroid();
+		checkForMissileAsteroidCollisions();
 	}
 
 	function checkShipLocation() {
