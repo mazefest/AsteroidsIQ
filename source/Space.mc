@@ -11,6 +11,33 @@ function startGame() {
 	WatchUi.pushView(view, delegate, transition);
 }
 
+class InfoBar {
+	var lives;
+	var level;
+	var score;
+
+	function initialize() {
+		lives = 3;
+		level = 1;
+		score = 0;
+		
+	}
+
+	function draw(dc) {
+		dc.fillRectangle(0, 200, 300, 100);
+		drawScore(dc);
+	}
+
+	function drawScore(dc) {
+		dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+		dc.drawText(120, 205, Graphics.FONT_XTINY, "Score: " + score.toString(), Graphics.TEXT_JUSTIFY_LEFT);
+	}
+
+	function addScore(value) {
+		score += value;
+	}
+}
+
 class Space extends WatchUi.View {
 	var timer;
 	var ship;
@@ -19,6 +46,7 @@ class Space extends WatchUi.View {
 	var timeOutCount = 0;
 	var width;
 	var height;
+	var info;
 	function initialize() {
 		View.initialize();
 		timer = new Timer.Timer();
@@ -26,6 +54,7 @@ class Space extends WatchUi.View {
 		ship = new Ship();	
 
 		asteroidManager = new AsteroidMaker();	
+		info = new InfoBar();
 	}
 
 	function onLayout(dc) {
@@ -42,6 +71,7 @@ class Space extends WatchUi.View {
 		checkShipLocation();
 		drawMissiles(dc);
 		asteroidManager.drawAsteroids(dc);
+		info.draw(dc);
 	}
 
 
@@ -57,6 +87,7 @@ class Space extends WatchUi.View {
 			var missile = missiles[i];
 			if (asteroidManager.collision(missile)) {
 				missiles.remove(missiles[i]);
+				info.addScore(10);	
 			}
 		
 		}
