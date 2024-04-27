@@ -15,7 +15,7 @@ class Flames {
 	function draw(dc, x, y, degrees) {
 		if (!activated) { return; }
 		
-		dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLUE);
+		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLUE);
 		dc.setPenWidth(6);
 		var points = Util.rotatePoints([x,y], pointMap, degrees);
 		var point1 = points[0];

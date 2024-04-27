@@ -56,7 +56,7 @@ class AsteroidMaker {
 			var size 	= generateRandomAsteroidSize();
 			var degrees = 0;
 			var newAsteroid = new Asteroid(x, y, speed, size, r);
-			newAsteroid.color = Graphics.COLOR_RED;
+			newAsteroid.color = Graphics.COLOR_WHITE;
 			asteroids.add(newAsteroid);
 		}
 
@@ -110,6 +110,18 @@ class AsteroidMaker {
 
 	}
 
+	function shipCollision(ship) {
+		for (var i = 0; i < asteroids.size(); i++) { 
+			var collided = asteroids[i].shipCollision(ship);
+
+			if (collided) {
+				return true;
+			}
+		}
+		return false;
+
+	}
+	
 	function collision(missile) {
 		var newAsteroidFragment1 = null;
 		var newAsteroidFragment2 = null;

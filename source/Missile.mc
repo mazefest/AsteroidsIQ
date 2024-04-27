@@ -20,7 +20,7 @@ class Missile {
 		var a = getNextCoordinate();
 		x += a[0];
 		y += a[1];
-		dc.setPenWidth(5);
+		dc.setPenWidth(2);
 		dc.drawPoint(x, y);
 	}
 

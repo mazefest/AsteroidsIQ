@@ -16,8 +16,10 @@ using Toybox.System;
 //@flames: Flames -> Used to draw flames at the back of the ship
 
 class Ship {
+	// center x,y
 	var x;
 	var y;
+	var points;
 	var width = 4;
 	var color = Graphics.COLOR_BLACK;
 	var rotation = 270; // degrees
@@ -25,25 +27,44 @@ class Ship {
 	var speedIndex = 0;
 	var gravity;
 	var flames;
-	var pointMap = [[5, -5], [-5, -5], [0, 10]];
+	var pointMap = [[5, -5], [-5, -5], [0, 10]]; // this is the map for the ship
 
 	function initialize() {
 		x = 120;
 		y = 120;
+
+		var pointLeft = [x + 5, y - 5];
+		var pointRight = [x - 5, y - 5];
+		var pointFace = [x - 5, y + 10];
+		points = Util.rotatePoints([x,y], pointMap, rotation);
+
 		flames = new Flames();
 		gravity = new Gravity();
 	}
 
 	function speed() { return speeds[speedIndex]; }
 
-	function draw(dc) {
-		applyGravity();
+	function updatePoints() {
 		var pointLeft = [x + 5, y - 5];
 		var pointRight = [x - 5, y - 5];
 		var pointFace = [x - 5, y + 10];
 		var pts = Util.rotatePoints([x,y], pointMap, rotation);
-		dc.setPenWidth(width);
-		dc.fillPolygon(pts);
+		points = pts;
+	}
+
+	function draw(dc) {
+		applyGravity();
+		updatePoints();
+
+		//update
+		// var pointLeft = [x + 5, y - 5];
+		// var pointRight = [x - 5, y - 5];
+		// var pointFace = [x - 5, y + 10];
+		// var pts = Util.rotatePoints([x,y], pointMap, rotation);
+
+		dc.setPenWidth(1);
+		dc.fillPolygon(points);
+
 		flames.draw(dc, x, y, rotation);
 	}
 

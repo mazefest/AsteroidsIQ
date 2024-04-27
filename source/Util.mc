@@ -28,4 +28,11 @@ class Util {
 		}
 		return pts;
 	}
+
+	// returns the distance between 2 points.
+	static function distanceBetween(pointA, pointB) {
+		var a = Math.pow((pointA.x - pointB.x), 2) + Math.pow((pointA.y - pointB.y), 2);
+		var value = Math.sqrt(a);
+		return value;
+	}
 }

@@ -13,7 +13,6 @@ class SpaceDelegate extends WatchUi.BehaviorDelegate {
 		var rotation = view.ship.rotation;
 		var missile = new Missile(x, y, rotation);
 		view.missiles.add(missile);
-		//view.ship.gas();
 	}
 
 	function onNextPage() {
@@ -25,7 +24,19 @@ class SpaceDelegate extends WatchUi.BehaviorDelegate {
 	}
 
 	function onBack() {
-		view.ship.shiftSpeed();
+		switch(view.gameState) {
+			case home:
+				view.reset();
+				view.gameState = active;
+				break;
+			case active:
+				view.ship.shiftSpeed();
+				break;
+			case gameOver:
+				view.gameState = home;
+				view.reset();
+				break;
+		}
 		return true;
 	}
 }
