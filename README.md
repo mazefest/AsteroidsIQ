@@ -1,6 +1,6 @@
 # AsteroidIQ
 
-<img src="ReadMeResources/GamePlay.gif" width="200" alt="">
+<img src="ReadMeResources/gamePlay.gif" width="200" alt="">
 
 Asteroid IQ is a shoot and survive space shooter developed for the CIQ ecosystem and can be run on these (link here) Garmin Devices.
 
